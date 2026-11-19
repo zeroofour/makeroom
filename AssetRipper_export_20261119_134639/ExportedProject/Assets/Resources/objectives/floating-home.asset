@@ -1,0 +1,594 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aca04db26949e7e4e559fdcf6beaca8, type: 3}
+  m_Name: floating-home
+  m_EditorClassIdentifier:
+  title: Floating Home
+  type: 0
+  cleaning: 1
+  unlock: toy-boat
+  unlockName: Toy Boat
+  chapters:
+  - text: Let's give this old boat a glow-up so it's ready for summer! First things first, let's mop up the water before we start renovating.
+    hint: cleaning/mop
+    prompt:
+    name: Puddles
+    action:
+    count: 0
+    objects:
+    - tagsPositive: puddle
+      tagsNegative:
+  - text: Wonderful! There's still some messy dirt around, grab the vacuum and swoosh it away!
+    hint: cleaning/vacuum
+    prompt:
+    name: Dirt
+    action:
+    count: 0
+    objects:
+    - tagsPositive: dirt
+      tagsNegative:
+  - text: You're a cleaning expert! Now that the floor is sparkling, how about picking a fresh new color?
+    hint:
+    prompt:
+    name: Floor color
+    action: set-floor-color
+    count: 0
+    objects: []
+  - text: It looks wonderful already! But that big mast blocks lots of light... maybe we can swap it for a smaller one or remove it?
+    hint:
+    prompt:
+    name: Mast
+    action: set-boat-mast
+    count: 0
+    objects: []
+  - text: Maybe those candles should go too. Better safe than sorry, we don’t want any fiery surprises!
+    hint:
+    prompt:
+    name: Candles
+    action:
+    count: 0
+    objects:
+    - tagsPositive: candle
+      tagsNegative:
+  - text: That bed seems a bit unnecessary for our summer boat, make some extra space by removing it all together.
+    hint:
+    prompt:
+    name: Bed
+    action:
+    count: 0
+    objects:
+    - tagsPositive: bed
+      tagsNegative:
+  - text: With that space free, how about adding a big cozy sofa so friends can all sit together?
+    hint:
+    prompt:
+    name: Sofa
+    action:
+    count: 1
+    objects:
+    - tagsPositive: sofa
+      tagsNegative:
+  - text: Um... do you think we could get rid of those fish? They’re a little too smelly to keep here.
+    hint:
+    prompt:
+    name: Fish
+    action:
+    count: 0
+    objects:
+    - tagsPositive: mount-fish
+      tagsNegative:
+  - text: Perfect! Let's expand the kitchen by adding another cabinet for extra storage.
+    hint:
+    prompt:
+    name: Cabinets
+    action:
+    count: 3
+    objects:
+    - tagsPositive: cabinet
+      tagsNegative:
+  - text: It'd be great to add a fridge, to keep drinks cool during those hot summer days at sea!
+    hint:
+    prompt:
+    name: Fridge
+    action:
+    count: 1
+    objects:
+    - tagsPositive: fridge
+      tagsNegative:
+  - text: To finish things off, let's add a cute rocking chair. Placing it on the deck would be just perfect.
+    hint:
+    prompt:
+    name: Rocking chair
+    action:
+    count: 1
+    objects:
+    - tagsPositive: chair-rocking
+      tagsNegative:
+  diorama:
+    title:
+    version: 1.9.0
+    properties:
+    - id: floor-shape
+      integerData: 2
+      stringData:
+    - id: background-color
+      integerData: 0
+      stringData: '#ECCAB5'
+    - id: walls-color-a
+      integerData: 0
+      stringData: '#506597'
+    - id: walls-color-b
+      integerData: 0
+      stringData: '#506597'
+    - id: walls-texture-a
+      integerData: 50
+      stringData:
+    - id: walls-texture-b
+      integerData: 50
+      stringData:
+    - id: floor-color
+      integerData: 0
+      stringData: '#9E6251'
+    - id: floor-texture
+      integerData: 0
+      stringData:
+    - id: background-environment
+      integerData: 6
+      stringData:
+    - id: boat-front
+      integerData: 0
+      stringData:
+    - id: boat-back
+      integerData: 0
+      stringData:
+    - id: boat-mast
+      integerData: 0
+      stringData:
+    - id: background-setting
+      integerData: 1
+      stringData:
+    - id: background-sound
+      integerData: 18
+      stringData:
+    chunks:
+    - id: ladder-wall-short
+      group: -1
+      position: {x: -1.1219951, y: 0.45000002, z: 0.427163}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-dark
+    - id: wall-w3h1l
+      group: -1
+      position: {x: -0.76922715, y: 0.45000002, z: -0.97002435}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.3855432, y: 0.3855432, z: 0.3855432}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: lamp-ceiling-industrial-small (%ceiling)
+      group: -1
+      position: {x: -0.040528983, y: 2.45, z: 0.43603233}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: bed-matress-single
+      group: -1
+      position: {x: 0.7045736, y: 0.45000002, z: 0.44133186}
+      rotation: {x: -0, y: -6.966493E-24, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: rag-small
+      group: -1
+      position: {x: 0.5122061, y: 0.8136363, z: 0.46396956}
+      rotation: {x: -0, y: -4.3878453E-13, z: 0}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-pastel
+    - id: cabinet-basic-sink (%thumbnail)
+      group: -1
+      position: {x: -1.161765, y: 0.45000002, z: -0.6200597}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: blue-dark
+      - index: 0
+        color: grey-light
+    - id: cabinet-basic-drawer
+      group: -1
+      position: {x: -1.1629949, y: 0.45, z: -0.25204873}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: grey-light
+      - index: 0
+        color: blue-dark
+    - id: comfy-chair (%thumbnail)
+      group: -1
+      position: {x: 1.1614513, y: 0.45000002, z: -0.6076735}
+      rotation: {x: 0, y: 202.49998, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: blue-pastel
+      - index: 0
+        color: grey-light
+    - id: mount-fish-round (%wall)
+      group: -1
+      position: {x: -0.72211057, y: 1.2907599, z: 0.84999996}
+      rotation: {x: -0, y: 90.00001, z: -0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: pink
+      - index: 1
+        color: yellow-ocher
+      - index: 2
+        color: mauve
+    - id: mount-fish (%wall)
+      group: -1
+      position: {x: -0.677988, y: 1.0353452, z: 0.85}
+      rotation: {x: -0, y: 89.99497, z: -0}
+      scale: {x: 0.4665073, y: 0.4665073, z: 0.4665073}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-muted-light
+      - index: 1
+        color: brown-light
+      - index: 2
+        color: peach
+      - index: 3
+        color: terracotta-light
+    - id: mount-fish (%wall)
+      group: -1
+      position: {x: -0.2426965, y: 1.1809223, z: 0.84999996}
+      rotation: {x: -0, y: 89.999916, z: -0}
+      scale: {x: 0.6209213, y: 0.6209213, z: 0.6209213}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-dark
+      - index: 1
+        color: brown-muted-light
+      - index: 2
+        color: blue
+      - index: 3
+        color: terracotta-light
+    - id: mount-fish-round (%wall)
+      group: -1
+      position: {x: -0.031555228, y: 1.5412662, z: 0.8499999}
+      rotation: {x: -0, y: 89.99994, z: -0}
+      scale: {x: 0.5644738, y: 0.56447387, z: 0.5644738}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 1
+        color: pink-pastel
+      - index: 2
+        color: red-light
+    - id: shelf-hanging-long (%wall)
+      group: -1
+      position: {x: 0.689147, y: 1.0592558, z: 0.84999996}
+      rotation: {x: 2.5733774E-15, y: 89.999985, z: -2.5733782E-15}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: books
+      group: -1
+      position: {x: 0.51109546, y: 1.1213479, z: 0.7347123}
+      rotation: {x: -0, y: 90.030396, z: -0}
+      scale: {x: 0.6209213, y: 0.62092125, z: 0.6209213}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 3
+        color: blue-pastel
+      - index: 1
+        color: green-cold-light
+      - index: 2
+        color: blue-light
+    - id: book-laying
+      group: -1
+      position: {x: 0.78055286, y: 1.1213479, z: 0.751008}
+      rotation: {x: 0, y: 292.50015, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: blue-light
+    - id: table-side-detailed-b
+      group: -1
+      position: {x: -0.32308698, y: 0.45000002, z: -0.70726824}
+      rotation: {x: -0, y: 22.499998, z: -0}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-lighter
+      - index: 1
+        color: grey
+    - id: candle-holder-tall
+      group: -1
+      position: {x: -0.36741573, y: 0.78000015, z: -0.6845865}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 0
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow-ocher
+    - id: candle-holder-small
+      group: -1
+      position: {x: -0.20410348, y: 0.78000015, z: -0.68380684}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 0
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow-ocher
+      - index: 1
+        color: terracotta-light
+      - index: 2
+        color: white
+    - id: puddle
+      group: -1
+      position: {x: -0.6027466, y: 0.45000002, z: 0.22935879}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1.21, y: 1.21, z: 1.21}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: puddle
+      group: -1
+      position: {x: 0.30023175, y: 0.45000002, z: -0.43981683}
+      rotation: {x: -0, y: 67.49926, z: -0}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: shoes-slippers
+      group: -1
+      position: {x: 1.7714626, y: 0.6, z: 0.41264698}
+      rotation: {x: 0, y: 337.49994, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-light
+    - id: towel-rolled
+      group: -1
+      position: {x: 1.1535972, y: 0.8136363, z: 0.49150068}
+      rotation: {x: -0, y: 45.00044, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-pastel
+    - id: dirt-c
+      group: -1
+      position: {x: -0.06788218, y: 0.45000002, z: -0.7549038}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-b
+      group: -1
+      position: {x: -1.0957276, y: 0.45, z: 0.50539386}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1.4641001, y: 1.4641001, z: 1.4641001}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: window-round-divider-small (%wall)
+      group: -1
+      position: {x: 0.7697661, y: 1.3679087, z: 0.85}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: dirt-a
+      group: -1
+      position: {x: 0.7411219, y: 0.45000002, z: -0.08139956}
+      rotation: {x: -0, y: 22.498507, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: stove-top-small
+      group: -1
+      position: {x: -1.1445173, y: 1.0134861, z: -0.23951745}
+      rotation: {x: -0, y: 348.75, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: tap-basic
+      group: -1
+      position: {x: -1.2758435, y: 1.0134861, z: -0.6152238}
+      rotation: {x: -0, y: 11.249999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-lighter
+    - id: binoculars (%secret)
+      group: -1
+      position: {x: -1.9142547, y: 0.97, z: -0.29396963}
+      rotation: {x: -0, y: 314.99814, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    thumbnail:
+    nextGroup: 0
+    type: 3
+    objective: 1
+    tag:
+    mesh:
+    icon:
+    colors: []

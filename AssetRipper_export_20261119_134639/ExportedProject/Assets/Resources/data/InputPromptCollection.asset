@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d37ce309b74c609dcb26f1b0d479e83, type: 3}
+  m_Name: InputPromptCollection
+  m_EditorClassIdentifier:
+  inputPrompts:
+  - id: select
+    title: Select
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 7741f280118c0db4eb097d412f9751aa, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 00c24fc000ca0d141901ec6e1c231b7a, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: c44ff78784903a749879635ee6bdba93, type: 2}
+  - id: camera-rotate
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 0242cc41858e9c345a53f02137112608, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 0a650cfb09625124b8526ff5bd22f93f, type: 2}
+  - id: camera-pan
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 2aa5aadbb7c02b04880c57c3678cc0ee, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 43a4a1269e20f394a9927b99663fcdd5, type: 2}
+  - id: camera-zoom
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: a0f510261979b5f409eac350775c6ec9, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 2d33693ba6635a543a3be32c50e86127, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: 9ac5bd9212e2c074bb3ac2fe6c6be6da, type: 2}
+  - id: rotate-object
+    title: Rotate
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: a0f510261979b5f409eac350775c6ec9, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 60e32b0375cc9da4092eee4149d5a1dc, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: c3829f01163dce24591cff615ac21df7, type: 2}
+  - id: cancel
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: b29bb25b1433b8d48bd6bd190ae4bc41, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 4934041d3c63e8b4ca1a4a1e0cc96d88, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: 1c6ec52568525a843936b6d66510936b, type: 2}
+  - id: keep-placing
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: be54a2aba931fe34da29de92cd0c60e2, type: 2}
+  - id: delete
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: fd9035cb202cfb545bee0caf95cb0aa1, type: 2}
+  - id: snap-to-grid
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: b4159cd18cafe7a4c87f50c6ec4bd887, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 4475ee4b21bcadf4181485c2e1e40178, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: 6d54f9734242f6e4481cc9ccc306c964, type: 2}
+  - id: undo
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 0e7b373869250224b9966ee741a1a85a, type: 2}
+  - id: vertical-movement
+    title: Move up/down
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 0594d73302d375543872f6ef872f2a92, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: 2d33693ba6635a543a3be32c50e86127, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: 9ac5bd9212e2c074bb3ac2fe6c6be6da, type: 2}
+  - id: hide-ui
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 536bcbcc73a36f349a8cb07183ec023f, type: 2}
+    - name:
+      device: 2
+      icon: {fileID: 21300000, guid: f59b2a44d3f9cb943a76fbc7671c2706, type: 2}
+    - name:
+      device: 3
+      icon: {fileID: 21300000, guid: 5d8514b807a47c141901c131c074e691, type: 2}
+  - id: hide
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 60f219503d4bc064db114e31f277340b, type: 2}
+  - id: unhide-all
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 9461c3f8a68be3a48b67cfb28e704bc7, type: 2}
+  - id: lock
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 9f44f0b63b62d1a4bbf88e913b531288, type: 2}
+  - id: unlock-all
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 1628606608ce7ca4381d3f6431475d40, type: 2}
+  - id: group
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 493e3ceec23bac743beb2f5992579dc7, type: 2}
+  - id: ungroup
+    title:
+    visuals:
+    - name:
+      device: 1
+      icon: {fileID: 21300000, guid: 924411e59205aab43a831aee04695412, type: 2}

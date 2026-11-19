@@ -1,0 +1,13 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Mirror.Editor")]
+[assembly: InternalsVisibleTo("Mirror.Tests.Performance.Editor")]
+[assembly: InternalsVisibleTo("Mirror.Tests.Runtime")]
+[assembly: InternalsVisibleTo("Mirror.Tests.Performance.Runtime")]
+[assembly: InternalsVisibleTo("Mirror.Tests.Generated")]
+[assembly: InternalsVisibleTo("Unity.Mirror.Tests.CodeGen")]
+[assembly: InternalsVisibleTo("Mirror.Tests")]
+[assembly: InternalsVisibleTo("Mirror.Tests.Common")]
+[assembly: AssemblyVersion("0.0.0.0")]

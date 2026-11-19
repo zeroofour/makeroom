@@ -1,0 +1,15 @@
+using System.Runtime.InteropServices;
+
+namespace Steamworks.Data;
+
+[StructLayout((LayoutKind)0, Pack = 8, Size = 1)]
+internal struct GSPolicyResponse_t : ICallbackData
+{
+	internal byte Secure;
+
+	public static int _datasize;
+
+	public int DataSize => 0;
+
+	public CallbackType CallbackType => (CallbackType)0;
+}

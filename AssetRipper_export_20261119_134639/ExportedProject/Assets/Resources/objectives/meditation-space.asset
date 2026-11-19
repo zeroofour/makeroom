@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aca04db26949e7e4e559fdcf6beaca8, type: 3}
+  m_Name: meditation-space
+  m_EditorClassIdentifier:
+  title: Meditation space
+  type: 0
+  cleaning: 0
+  unlock: yoga-mat
+  unlockName: Yoga mat
+  chapters:
+  - text: Let's turn this room into a peaceful meditation space! Start by selecting a soft rug.
+    hint:
+    prompt:
+    name: Rug
+    action:
+    count: 1
+    objects:
+    - tagsPositive: carpet
+      tagsNegative:
+  - text: Great choice! Now, let's add some cushions for comfortable seating during meditation sessions.
+    hint:
+    prompt:
+    name: Cushions
+    action:
+    count: 4
+    objects:
+    - tagsPositive: pillow
+      tagsNegative:
+  - text: Wonderful! I'm sure it can get hot in here, how about placing a fan?
+    hint:
+    prompt:
+    name: Fan
+    action:
+    count: 1
+    objects:
+    - tagsPositive: fan
+      tagsNegative:
+  - text: Excellent! Let's bring in some greenery with potted plants or a small indoor garden to add to the tranquil atmosphere.
+    hint:
+    prompt:
+    name: Plants
+    action:
+    count: 3
+    objects:
+    - tagsPositive: plant
+      tagsNegative:
+  - text: Fantastic! Now, let's add some ambient lighting with candles.
+    hint:
+    prompt:
+    name: Candles
+    action:
+    count: 3
+    objects:
+    - tagsPositive: candle
+      tagsNegative:
+  - text: Amazing! To complete the meditation space, let's add a radio for soothing music!
+    hint:
+    prompt:
+    name: Radio
+    action:
+    count: 1
+    objects:
+    - tagsPositive: radio
+      tagsNegative:
+  diorama:
+    title:
+    version: 1.6.2
+    properties:
+    - id: floor-color
+      integerData: 0
+      stringData: '#ECCAB5'
+    - id: floor-texture
+      integerData: 44
+      stringData:
+    - id: background-environment
+      integerData: 1
+      stringData:
+    - id: background-color
+      integerData: 0
+      stringData: '#E9E9E9'
+    - id: walls-color-a
+      integerData: 0
+      stringData: '#E9E9E9'
+    - id: walls-color-b
+      integerData: 0
+      stringData: '#E9E9E9'
+    - id: background-sound
+      integerData: 4
+      stringData:
+    chunks:
+    - id: room-divider-solid
+      group: -1
+      position: {x: -0.81260204, y: 0.15, z: -1.274277}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: room-divider-solid
+      group: -1
+      position: {x: -0.80845034, y: 0.15, z: -0.80964273}
+      rotation: {x: -0, y: 22.500008, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: room-divider-solid
+      group: -1
+      position: {x: -0.8031878, y: 0.15, z: -0.3358249}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: window-wide-dividers-narrow-extra (%wall)
+      group: -1
+      position: {x: -0.57194465, y: 0.5128716, z: 1.35}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: window-wide-dividers-narrow-extra (%wall)
+      group: -1
+      position: {x: 0.8176627, y: 0.5125825, z: 1.3500001}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: curtain-narrow-short-open (%wall)
+      group: -1
+      position: {x: -0.5608658, y: 2.2119637, z: 1.35}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta-light
+    - id: curtain-narrow-short-open (%wall)
+      group: -1
+      position: {x: 0.80821276, y: 2.1922925, z: 1.3500001}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta-light
+    - id: whiteboard-clutter (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.9089085, z: 0.34138465}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    thumbnail:
+    nextGroup: 0
+    type: 0
+    objective: 0
+    tag:
+    mesh:
+    icon:
+    colors: []

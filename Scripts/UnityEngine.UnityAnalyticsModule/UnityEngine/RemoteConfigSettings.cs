@@ -1,0 +1,28 @@
+using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using UnityEngine.Bindings;
+using UnityEngine.Internal;
+using UnityEngine.Scripting;
+
+namespace UnityEngine;
+
+[StructLayout((LayoutKind)0)]
+[ExcludeFromDocs]
+[NativeHeader("UnityAnalyticsScriptingClasses.h")]
+[NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
+public class RemoteConfigSettings
+{
+	[NonSerialized]
+	internal IntPtr m_Ptr;
+
+	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	private Action<bool> Updated;
+
+	[RequiredByNativeCode]
+	internal static void RemoteConfigSettingsUpdated(RemoteConfigSettings rcs, bool wasLastUpdatedFromServer)
+	{
+	}
+}

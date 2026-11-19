@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aca04db26949e7e4e559fdcf6beaca8, type: 3}
+  m_Name: spy-headquarters
+  m_EditorClassIdentifier:
+  title: Spy headquarters
+  type: 0
+  cleaning: 0
+  unlock: binoculars
+  unlockName: Binoculars
+  chapters:
+  - text: Let's turn this room into a top-secret spy headquarters! We should get rid of these cabinets, they take up a lot of space.
+    hint:
+    prompt:
+    name: Cabinets
+    action:
+    count: 0
+    objects:
+    - tagsPositive: cabinet-clothing
+      tagsNegative:
+  - text: Now find a sleek and stylish desk fit for a super-spy mastermind.
+    hint:
+    prompt:
+    name: Desk
+    action:
+    count: 1
+    objects:
+    - tagsPositive: desk
+      tagsNegative:
+  - text: Great choice! Now, let's find a laptop to do super secret stuff on!
+    hint:
+    prompt:
+    name: Laptop
+    action:
+    count: 1
+    objects:
+    - tagsPositive: laptop
+      tagsNegative:
+  - text: Excellent! It would be wise to add a headphone to the laptop, that way secret messages don't accidentally leak!
+    hint:
+    prompt:
+    name: Headphones
+    action:
+    count: 1
+    objects:
+    - tagsPositive: headphones
+      tagsNegative:
+  - text: Now, a comfortable chair for long sessions of top secret stuff.
+    hint:
+    prompt:
+    name: Chair
+    action:
+    count: 1
+    objects:
+    - tagsPositive: chair
+      tagsNegative:
+  - text: And just for some time off let's add an arcade cabinet!
+    hint:
+    prompt:
+    name: Arcade
+    action:
+    count: 1
+    objects:
+    - tagsPositive: arcade
+      tagsNegative:
+  diorama:
+    title:
+    version: 1.6.2
+    properties:
+    - id: background-color
+      integerData: 0
+      stringData: '#36323F'
+    - id: background-environment
+      integerData: 3
+      stringData:
+    - id: floor-shape
+      integerData: 4
+      stringData:
+    - id: walls-color-a
+      integerData: 0
+      stringData: '#AFA9BE'
+    - id: walls-color-b
+      integerData: 0
+      stringData: '#AFA9BE'
+    - id: floor-color
+      integerData: 0
+      stringData: '#36323F'
+    - id: floor-texture
+      integerData: 48
+      stringData:
+    - id: background-setting
+      integerData: 1
+      stringData:
+    - id: background-sound
+      integerData: 9
+      stringData:
+    chunks:
+    - id: cabinet-clothing
+      group: -1
+      position: {x: 2.612394, y: 0.15, z: 1.1612326}
+      rotation: {x: -0, y: 90.00001, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow
+      - index: 2
+        color: grey
+      - index: 1
+        color: grey-light
+    - id: tv-cabinet-open-metal
+      group: -1
+      position: {x: 0.47574493, y: 0.15, z: 1.0711831}
+      rotation: {x: -0, y: 90.00001, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: electronic-receiver-device-large
+      group: -1
+      position: {x: -0.035935253, y: 0.455, z: 1.0815209}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: electronic-receiver-device-flat
+      group: -1
+      position: {x: 0.41235957, y: 0.455, z: 1.0923804}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-long-bend
+      group: -1
+      position: {x: 0.75779486, y: 0.455, z: 1.1082308}
+      rotation: {x: -0, y: 67.49999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-pile
+      group: -1
+      position: {x: 0.3415403, y: 0.563775, z: 1.0693948}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-pile
+      group: -1
+      position: {x: 1.0214803, y: 0.24704894, z: 1.034144}
+      rotation: {x: 0, y: 292.5002, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cabinet-clothing
+      group: -1
+      position: {x: -1.1427674, y: 0.15, z: -1.0935742}
+      rotation: {x: -0, y: 7.629396E-06, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow
+      - index: 2
+        color: grey
+      - index: 1
+        color: grey-light
+    - id: cabinet-clothing
+      group: -1
+      position: {x: -1.1543967, y: 0.15, z: -0.25331265}
+      rotation: {x: -0, y: 7.629396E-06, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow
+      - index: 2
+        color: grey
+      - index: 1
+        color: grey-light
+    - id: rectangle-border
+      group: -1
+      position: {x: 1.212364, y: 0.15, z: -0.20118058}
+      rotation: {x: -0, y: 67.500015, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+      - index: 1
+        color: yellow
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.8300145, z: 0.56309223}
+      rotation: {x: -0, y: 1.6425238E-09, z: -0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -0.9317875, y: 1.9695951, z: 1.35}
+      rotation: {x: -0, y: 89.99997, z: -0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-large (%wall)
+      group: -1
+      position: {x: 1.646036, y: 1.7159889, z: 1.3500001}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-large (%wall)
+      group: -1
+      position: {x: -1.35, y: 2.0033422, z: -0.0064059496}
+      rotation: {x: -0, y: 2.4253708E-11, z: -0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -1.3499999, y: 1.9928892, z: -1.0079832}
+      rotation: {x: -0, y: 1.2352095E-06, z: -0}
+      scale: {x: 0.513158, y: 0.513158, z: 0.513158}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -0.4860022, y: 2.1544824, z: 1.35}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 0.513158, y: 0.513158, z: 0.513158}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: 1.740986, y: 0.5111754, z: 1.3500001}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 0.513158, y: 0.513158, z: 0.513158}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: switch-outlet (%wall)
+      group: -1
+      position: {x: 1.041603, y: 0.41706863, z: 1.35}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: whiteboard-clutter (%wall)
+      group: -1
+      position: {x: 0.44558182, y: 0.6964843, z: 1.35}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pc-case-basic
+      group: -1
+      position: {x: -0.9466494, y: 0.15, z: 0.30279404}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pc-case-basic
+      group: -1
+      position: {x: -0.9430963, y: 0.14999999, z: 0.7004521}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pc-keyboard
+      group: -1
+      position: {x: -0.10390164, y: 0.14999999, z: 0.65616417}
+      rotation: {x: -0, y: 112.499985, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: microphone-stand
+      group: -1
+      position: {x: -0.07872377, y: 0.63, z: 1.0350478}
+      rotation: {x: -0, y: 112.50026, z: -0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-long-bend
+      group: -1
+      position: {x: 0.26620787, y: 0.15, z: 0.83539367}
+      rotation: {x: -0, y: 44.999996, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    thumbnail:
+    nextGroup: 0
+    type: 0
+    objective: 0
+    tag:
+    mesh:
+    icon:
+    colors: []

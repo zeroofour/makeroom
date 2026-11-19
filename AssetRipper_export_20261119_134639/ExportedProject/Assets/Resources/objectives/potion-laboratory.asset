@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aca04db26949e7e4e559fdcf6beaca8, type: 3}
+  m_Name: potion-laboratory
+  m_EditorClassIdentifier:
+  title: Potion laboratory
+  type: 0
+  cleaning: 1
+  unlock: potion-square
+  unlockName: Potion
+  chapters:
+  - text: Let's transform this room into a magical potion-making laboratory! The room needs cleaning first, the cobwebs might be a good start!
+    hint: cleaning/duster
+    prompt:
+    name: Cobwebs
+    action:
+    count: 0
+    objects:
+    - tagsPositive: cobweb
+      tagsNegative:
+  - text: That's a lot better! There's still a few puddles of mud on the floor, we should clean that!
+    hint: cleaning/mop
+    prompt:
+    name: Puddles
+    action:
+    count: 0
+    objects:
+    - tagsPositive: puddle
+      tagsNegative:
+  - text: Fantastic job! Now we can start decorating. First, a fireplace for brewing potions!
+    hint:
+    prompt:
+    name: Fireplace
+    action:
+    count: 1
+    objects:
+    - tagsPositive: fireplace
+      tagsNegative:
+  - text: Great choice! Now, lets light the fireplace by placing a fire effect!
+    hint:
+    prompt:
+    name: Fire
+    action:
+    count: 1
+    objects:
+    - tagsPositive: fire
+      tagsNegative: fireplace
+  - text: But what if the fire goes out? We'll need some additional logs!
+    hint:
+    prompt:
+    name: Logs
+    action:
+    count: 2
+    objects:
+    - tagsPositive: logs
+      tagsNegative:
+  - text: Wonderful! How about we add some jars to the fireplace mantle?
+    hint:
+    prompt:
+    name: Jars
+    action:
+    count: 4
+    objects:
+    - tagsPositive: jar
+      tagsNegative:
+    - tagsPositive: potion
+      tagsNegative:
+  - text: Now lets get rid of those curtains, they're a fire hazard with all the brewing going on!
+    hint:
+    prompt:
+    name: Curtains
+    action:
+    count: 0
+    objects:
+    - tagsPositive: curtain
+      tagsNegative:
+  - text: Fantastic! Now, let's bring in the most enchanted creature of them all - a cat!
+    hint:
+    prompt:
+    name: Cat
+    action:
+    count: 1
+    objects:
+    - tagsPositive: cat
+      tagsNegative:
+  - text: Amazing! To complete the magical laboratory, let's add some candles for that mysterious vibe.
+    hint:
+    prompt:
+    name: Candles
+    action:
+    count: 2
+    objects:
+    - tagsPositive: candle
+      tagsNegative:
+  diorama:
+    title:
+    version: 1.7.6
+    properties:
+    - id: floor-shape
+      integerData: 2
+      stringData:
+    - id: background-color
+      integerData: 0
+      stringData: '#C87B5B'
+    - id: walls-color-a
+      integerData: 0
+      stringData: '#7A7684'
+    - id: walls-color-b
+      integerData: 0
+      stringData: '#7A7684'
+    - id: walls-texture-a
+      integerData: 2
+      stringData:
+    - id: walls-texture-b
+      integerData: 2
+      stringData:
+    - id: floor-color
+      integerData: 0
+      stringData: '#CF9C7C'
+    - id: floor-texture
+      integerData: 44
+      stringData:
+    - id: background-environment
+      integerData: 1
+      stringData:
+    chunks:
+    - id: window-medieval-medium (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.88123155, z: -0.9680164}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-muted-dark
+    - id: window-medieval-medium (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.8795018, z: 0.6201684}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-muted-dark
+    - id: curtain-wide-longopen (%wall)
+      group: -1
+      position: {x: -1.35, y: 2.1663961, z: -0.98659134}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta
+      - index: 1
+        color: red-muted
+    - id: curtain-wide-longopen (%wall)
+      group: -1
+      position: {x: -1.35, y: 2.1085193, z: 0.5960653}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta
+      - index: 1
+        color: red-muted
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.5061538, z: -0.071504116}
+      rotation: {x: -0, y: 0.0002828177, z: -0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+    - id: brick-assorted-small (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.5499227, z: -0.79323435}
+      rotation: {x: -0, y: 3.0904143E-14, z: -0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+    - id: rectangle-border
+      group: -1
+      position: {x: -0.07891184, y: 0.15, z: -0.16005427}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: yellow-ocher-light
+      - index: 1
+        color: red-muted
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.15, z: -1.15}
+      rotation: {x: -0, y: 2.7953096E-11, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.15, z: -0.15}
+      rotation: {x: -0, y: 3.3949338E-10, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.15, z: 0.85}
+      rotation: {x: -0, y: 2.7939251E-21, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: -0.85, y: 0.15, z: 1.35}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: 0.15, y: 0.15, z: 1.3500001}
+      rotation: {x: -0, y: 89.999985, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: baseboard-detailed (%wall)
+      group: -1
+      position: {x: 1.15, y: 0.15, z: 1.3500003}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: table-planks-rectangle
+      group: -1
+      position: {x: -0.16839623, y: 0.17500001, z: -0.18580279}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1.21, y: 1.21, z: 1.21}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown
+    - id: book-open
+      group: -1
+      position: {x: 0.0071837604, y: 0.7599382, z: -0.48702002}
+      rotation: {x: 0, y: 247.50237, z: 0}
+      scale: {x: 1.1, y: 1.1, z: 1.1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: red-muted
+    - id: plant-large-ridged
+      group: -1
+      position: {x: -0.4824329, y: 0.7599382, z: -0.86928}
+      rotation: {x: 0, y: 337.50024, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple-light
+      - index: 0
+        color: brown
+      - index: 1
+        color: brown
+    - id: potion-round
+      group: -1
+      position: {x: -0.2916574, y: 0.75993824, z: -0.4956846}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: book-laying
+      group: -1
+      position: {x: -0.36522794, y: 0.75993824, z: 0.19730431}
+      rotation: {x: 0, y: 247.49829, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: book-laying
+      group: -1
+      position: {x: -0.33105883, y: 0.83693826, z: 0.19120537}
+      rotation: {x: 0, y: 337.48492, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+    - id: cooking-pot
+      group: -1
+      position: {x: 0.012427643, y: 0.7599382, z: 0.38328555}
+      rotation: {x: -0, y: 44.999996, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-lighter
+    - id: potion-round
+      group: -1
+      position: {x: -0.02511628, y: 0.7599382, z: 0.11004844}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: purple-light
+    - id: cabinet-bookcase-classic-narrow
+      group: -1
+      position: {x: -0.78411627, y: 0.15000002, z: 1.2126207}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: book-laying
+      group: -1
+      position: {x: -0.8859691, y: 1.5869997, z: 1.1771963}
+      rotation: {x: 0, y: 292.5027, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple
+      - index: 1
+        color: red-muted
+    - id: books
+      group: -1
+      position: {x: -0.7260242, y: 1.2329998, z: 1.195857}
+      rotation: {x: -0, y: 89.99953, z: -0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple
+      - index: 1
+        color: red-muted
+    - id: book-laying
+      group: -1
+      position: {x: -0.84605527, y: 0.92899996, z: 1.2066479}
+      rotation: {x: 0, y: 292.50427, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: book-laying
+      group: -1
+      position: {x: -0.80801964, y: 1.0059999, z: 1.1857004}
+      rotation: {x: -0, y: 135.0031, z: -0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple
+      - index: 1
+        color: red-muted
+    - id: books
+      group: -1
+      position: {x: -0.7289658, y: 0.625, z: 1.2122349}
+      rotation: {x: -0, y: 89.99953, z: -0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-muted
+      - index: 1
+        color: yellow-light
+      - index: 3
+        color: purple
+    - id: book-laying
+      group: -1
+      position: {x: -1.0810087, y: 0.15, z: 0.8404274}
+      rotation: {x: 0, y: 315.00244, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple
+      - index: 1
+        color: red-muted
+    - id: book-laying
+      group: -1
+      position: {x: -1.0745314, y: 0.227, z: 0.86346316}
+      rotation: {x: 0, y: 247.5043, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: puddle
+      group: -1
+      position: {x: 0.06836712, y: 0.17500001, z: 0.42480052}
+      rotation: {x: -0, y: -0.00092446315, z: 0}
+      scale: {x: 1.3310001, y: 1.3310001, z: 1.3310001}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown
+    - id: puddle
+      group: -1
+      position: {x: 1.0026952, y: 0.15, z: 0.10978404}
+      rotation: {x: -0, y: 44.999065, z: -0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown
+    - id: puddle
+      group: -1
+      position: {x: -0.84499574, y: 0.15, z: -1.1281275}
+      rotation: {x: -0, y: 22.499071, z: -0}
+      scale: {x: 0.90909094, y: 0.9090909, z: 0.90909094}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown
+    - id: cobweb-a (%wall)
+      group: -1
+      position: {x: -1.1351523, y: 2.173121, z: -0.92464477}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cobweb-b (%wall)
+      group: -1
+      position: {x: 0.907001, y: 2.4431767, z: 1.3500001}
+      rotation: {x: -0, y: 89.99999, z: -0}
+      scale: {x: 1.331, y: 1.3310001, z: 1.331}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    thumbnail:
+    nextGroup: 0
+    type: 0
+    objective: 0
+    tag:
+    mesh:
+    icon:
+    colors: []

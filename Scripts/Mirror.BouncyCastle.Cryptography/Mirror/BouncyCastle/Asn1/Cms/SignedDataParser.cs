@@ -1,0 +1,50 @@
+namespace Mirror.BouncyCastle.Asn1.Cms;
+
+public class SignedDataParser
+{
+	private readonly Asn1SequenceParser m_seq;
+
+	private readonly DerInteger m_version;
+
+	private object _nextObject;
+
+	private bool _certsCalled;
+
+	private bool _crlsCalled;
+
+	public DerInteger Version => null;
+
+	public static SignedDataParser GetInstance(object o)
+	{
+		return null;
+	}
+
+	public SignedDataParser(Asn1SequenceParser seq)
+	{
+	}
+
+	public Asn1SetParser GetDigestAlgorithms()
+	{
+		return null;
+	}
+
+	public ContentInfoParser GetEncapContentInfo()
+	{
+		return null;
+	}
+
+	public Asn1SetParser GetCertificates()
+	{
+		return null;
+	}
+
+	public Asn1SetParser GetCrls()
+	{
+		return null;
+	}
+
+	public Asn1SetParser GetSignerInfos()
+	{
+		return null;
+	}
+}

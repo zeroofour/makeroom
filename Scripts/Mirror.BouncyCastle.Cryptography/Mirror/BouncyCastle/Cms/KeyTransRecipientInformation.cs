@@ -1,0 +1,31 @@
+using Mirror.BouncyCastle.Asn1.Cms;
+using Mirror.BouncyCastle.Asn1.X509;
+using Mirror.BouncyCastle.Crypto;
+using Mirror.BouncyCastle.Crypto.Parameters;
+
+namespace Mirror.BouncyCastle.Cms;
+
+public class KeyTransRecipientInformation : RecipientInformation
+{
+	private KeyTransRecipientInfo info;
+
+	internal KeyTransRecipientInformation(KeyTransRecipientInfo info, CmsSecureReadable secureReadable)
+		: base(null, null)
+	{
+	}
+
+	private string GetExchangeEncryptionAlgorithmName(AlgorithmIdentifier algo)
+	{
+		return null;
+	}
+
+	internal KeyParameter UnwrapKey(ICipherParameters key)
+	{
+		return null;
+	}
+
+	public override CmsTypedStream GetContentStream(ICipherParameters key)
+	{
+		return null;
+	}
+}

@@ -1,0 +1,40 @@
+using System;
+
+namespace Mirror.BouncyCastle.Asn1.Esf;
+
+public class OtherRevRefs : Asn1Encodable
+{
+	private readonly DerObjectIdentifier m_otherRevRefType;
+
+	private readonly Asn1Encodable m_otherRevRefs;
+
+	public DerObjectIdentifier OtherRevRefType => null;
+
+	public Asn1Encodable OtherRevRefsData => null;
+
+	[Obsolete("Use 'OtherRevRefsData' instead")]
+	public Asn1Object OtherRevRefsObject => null;
+
+	public static OtherRevRefs GetInstance(object obj)
+	{
+		return null;
+	}
+
+	public static OtherRevRefs GetInstance(Asn1TaggedObject taggedObject, bool declaredExplicit)
+	{
+		return null;
+	}
+
+	private OtherRevRefs(Asn1Sequence seq)
+	{
+	}
+
+	public OtherRevRefs(DerObjectIdentifier otherRevRefType, Asn1Encodable otherRevRefs)
+	{
+	}
+
+	public override Asn1Object ToAsn1Object()
+	{
+		return null;
+	}
+}

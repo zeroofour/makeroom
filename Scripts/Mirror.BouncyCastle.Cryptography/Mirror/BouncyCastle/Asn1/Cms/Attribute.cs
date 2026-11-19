@@ -1,0 +1,38 @@
+using System;
+
+namespace Mirror.BouncyCastle.Asn1.Cms;
+
+public class Attribute : Asn1Encodable
+{
+	private DerObjectIdentifier attrType;
+
+	private Asn1Set attrValues;
+
+	public DerObjectIdentifier AttrType => null;
+
+	public Asn1Set AttrValues => null;
+
+	public static Attribute GetInstance(object obj)
+	{
+		return null;
+	}
+
+	public static Attribute GetInstance(Asn1TaggedObject taggedObject, bool declaredExplicit)
+	{
+		return null;
+	}
+
+	[Obsolete("Use 'GetInstance' instead")]
+	public Attribute(Asn1Sequence seq)
+	{
+	}
+
+	public Attribute(DerObjectIdentifier attrType, Asn1Set attrValues)
+	{
+	}
+
+	public override Asn1Object ToAsn1Object()
+	{
+		return null;
+	}
+}

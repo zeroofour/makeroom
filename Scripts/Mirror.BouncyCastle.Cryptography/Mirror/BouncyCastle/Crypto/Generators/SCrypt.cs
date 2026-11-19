@@ -1,0 +1,42 @@
+using System;
+
+namespace Mirror.BouncyCastle.Crypto.Generators;
+
+public class SCrypt
+{
+	public static byte[] Generate(byte[] P, byte[] S, int N, int r, int p, int dkLen)
+	{
+		return null;
+	}
+
+	private static byte[] MFcrypt(byte[] P, byte[] S, int N, int r, int p, int dkLen)
+	{
+		return null;
+	}
+
+	private static byte[] SingleIterationPBKDF2(byte[] P, byte[] S, int dkLen)
+	{
+		return null;
+	}
+
+	private static void SMix(uint[] B, int BOff, int N, int d, int r)
+	{
+	}
+
+	private static void BlockMix(uint[] B, uint[] X1, uint[] Y, int r)
+	{
+	}
+
+	private static void Clear(Array array)
+	{
+	}
+
+	private static void ClearAll(params Array[] arrays)
+	{
+	}
+
+	private static bool IsPowerOf2(int x)
+	{
+		return false;
+	}
+}

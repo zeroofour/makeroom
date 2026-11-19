@@ -1,0 +1,17 @@
+using UnityEngine;
+
+namespace Mirror;
+
+[DisallowMultipleComponent]
+[AddComponentMenu("Network/Network Start Position")]
+[HelpURL("https://mirror-networking.gitbook.io/docs/components/network-start-position")]
+public class NetworkStartPosition : MonoBehaviour
+{
+	public void Awake()
+	{
+	}
+
+	public void OnDestroy()
+	{
+	}
+}

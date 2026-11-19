@@ -1,0 +1,80 @@
+using System.Collections.Generic;
+
+namespace Mirror.BouncyCastle.Crypto.Engines;
+
+public class Gost28147Engine : IBlockCipher
+{
+	private const int BlockSize = 8;
+
+	private int[] workingKey;
+
+	private bool forEncryption;
+
+	private byte[] S;
+
+	private static readonly byte[] Sbox_Default;
+
+	private static readonly byte[] ESbox_Test;
+
+	private static readonly byte[] ESbox_A;
+
+	private static readonly byte[] ESbox_B;
+
+	private static readonly byte[] ESbox_C;
+
+	private static readonly byte[] ESbox_D;
+
+	private static readonly byte[] DSbox_Test;
+
+	private static readonly byte[] DSbox_A;
+
+	private static readonly Dictionary<string, byte[]> m_sBoxes;
+
+	public virtual string AlgorithmName => null;
+
+	static Gost28147Engine()
+	{
+	}
+
+	private static void AddSBox(string sBoxName, byte[] sBox)
+	{
+	}
+
+	public virtual void Init(bool forEncryption, ICipherParameters parameters)
+	{
+	}
+
+	public virtual int GetBlockSize()
+	{
+		return 0;
+	}
+
+	public virtual int ProcessBlock(byte[] input, int inOff, byte[] output, int outOff)
+	{
+		return 0;
+	}
+
+	private int[] GenerateWorkingKey(bool forEncryption, byte[] userKey)
+	{
+		return null;
+	}
+
+	private int Gost28147_mainStep(int n1, int key)
+	{
+		return 0;
+	}
+
+	private void Gost28147Func(int[] workingKey, byte[] inBytes, int inOff, byte[] outBytes, int outOff)
+	{
+	}
+
+	public static byte[] GetSBox(string sBoxName)
+	{
+		return null;
+	}
+
+	public static string GetSBoxName(byte[] sBox)
+	{
+		return null;
+	}
+}

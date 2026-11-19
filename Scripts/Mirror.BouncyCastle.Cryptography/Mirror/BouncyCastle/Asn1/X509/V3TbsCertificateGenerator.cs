@@ -1,0 +1,91 @@
+namespace Mirror.BouncyCastle.Asn1.X509;
+
+public class V3TbsCertificateGenerator
+{
+	internal DerTaggedObject version;
+
+	internal DerInteger serialNumber;
+
+	internal AlgorithmIdentifier signature;
+
+	internal X509Name issuer;
+
+	internal Time startDate;
+
+	internal Time endDate;
+
+	internal X509Name subject;
+
+	internal SubjectPublicKeyInfo subjectPublicKeyInfo;
+
+	internal X509Extensions extensions;
+
+	private bool altNamePresentAndCritical;
+
+	private DerBitString issuerUniqueID;
+
+	private DerBitString subjectUniqueID;
+
+	public void SetSerialNumber(DerInteger serialNumber)
+	{
+	}
+
+	public void SetSignature(AlgorithmIdentifier signature)
+	{
+	}
+
+	public void SetIssuer(X509Name issuer)
+	{
+	}
+
+	public void SetStartDate(Asn1UtcTime startDate)
+	{
+	}
+
+	public void SetStartDate(Time startDate)
+	{
+	}
+
+	public void SetEndDate(Asn1UtcTime endDate)
+	{
+	}
+
+	public void SetEndDate(Time endDate)
+	{
+	}
+
+	public void SetSubject(X509Name subject)
+	{
+	}
+
+	public void SetIssuerUniqueID(DerBitString uniqueID)
+	{
+	}
+
+	public void SetSubjectUniqueID(DerBitString uniqueID)
+	{
+	}
+
+	public void SetSubjectPublicKeyInfo(SubjectPublicKeyInfo pubKeyInfo)
+	{
+	}
+
+	public void SetExtensions(X509Extensions extensions)
+	{
+	}
+
+	public Asn1Sequence GeneratePreTbsCertificate()
+	{
+		return null;
+	}
+
+	public TbsCertificateStructure GenerateTbsCertificate()
+	{
+		return null;
+	}
+
+	private Asn1Sequence GenerateTbsStructure()
+	{
+		return null;
+	}
+}

@@ -1,0 +1,3700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aca04db26949e7e4e559fdcf6beaca8, type: 3}
+  m_Name: garage-hangout
+  m_EditorClassIdentifier:
+  title: Garage Hangout
+  type: 1
+  cleaning: 0
+  unlock: bar-stool-round-support
+  unlockName: Bar stool
+  chapters: []
+  diorama:
+    title:
+    version: 2.5.3
+    properties:
+    - id: background-color
+      integerData: 0
+      stringData: '#6294A3'
+    - id: walls-color-a
+      integerData: 0
+      stringData: '#E2A55F'
+    - id: walls-color-b
+      integerData: 0
+      stringData: '#E2A55F'
+    - id: floor-color
+      integerData: 0
+      stringData: '#7A7684'
+    - id: floor-texture
+      integerData: 0
+      stringData: clear
+    - id: walls-texture-a
+      integerData: 0
+      stringData: stretcher-b
+    - id: walls-texture-b
+      integerData: 0
+      stringData: stretcher-b
+    - id: floor-shape
+      integerData: 9
+      stringData:
+    - id: background-environment
+      integerData: 3
+      stringData:
+    - id: background-sound
+      integerData: 10
+      stringData:
+    - id: background-setting
+      integerData: 1
+      stringData:
+    chunks:
+    - id: door-double-garage (%wall)
+      group: -1
+      position: {x: 3.0250006, y: 0.15000002, z: 1.3500001}
+      rotation: {x: -3.8166657E-14, y: 90, z: -3.993537E-07}
+      scale: {x: 0.9090909, y: 0.9590909, z: 1.177686}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-yellow
+    - id: stairs-slanted
+      group: -1
+      position: {x: -1.017432, y: 0.15, z: -2.025}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1.076709, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: stairs-railing-classic
+      group: -1
+      position: {x: -0.72499996, y: 0.3790152, z: -1.2750001}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: window-wide-dividers (%wall)
+      group: -1
+      position: {x: -0.22499986, y: 1.3250002, z: 1.3500001}
+      rotation: {x: 0, y: 90, z: 3.7120597E-07}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: window-wide-dividers (%wall)
+      group: -1
+      position: {x: 0.7262969, y: 1.3250002, z: 1.3500001}
+      rotation: {x: 0, y: 90, z: -7.4241194E-07}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: door-rounded-glass-windows (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.15000005, z: -0.59109247}
+      rotation: {x: 0, y: 0, z: -3.993537E-07}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cabinet-drawers
+      group: -1
+      position: {x: 1.3, y: 0.15, z: 1.2}
+      rotation: {x: 0, y: 90.00002, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: red-alternative
+    - id: cabinet-squares-doors-medium
+      group: -1
+      position: {x: -1.2, y: 0.15, z: 1.0249997}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta
+      - index: 1
+        color: terracotta
+    - id: stockholm-sofa (%thumbnail)
+      group: -1
+      position: {x: 1.3112475, y: 0.07500001, z: -2.2159643}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-dark
+      - index: 1
+        color: brown-muted-dark
+    - id: comfy-chair-metal
+      group: -1
+      position: {x: 0.8651818, y: 0.15, z: -1.1190861}
+      rotation: {x: 0, y: 134.99998, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-cold-light
+      - index: 1
+        color: green-dark
+    - id: sidetable-drawers-frame-sides
+      group: -1
+      position: {x: -0.9386298, y: 0.15, z: -2.6879365}
+      rotation: {x: 0, y: 348.75, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: crt-monitor
+      group: -1
+      position: {x: -0.92420924, y: 0.534504, z: -2.8113873}
+      rotation: {x: 0, y: 331.875, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-dark
+    - id: speaker-small
+      group: -1
+      position: {x: -1.213656, y: 0.15, z: -2.1170619}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: switch-outlet (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.26125962, z: -3.0069468}
+      rotation: {x: 8.291232E-25, y: 2.379107E-16, z: -3.993537E-07}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: trashcan
+      group: -1
+      position: {x: 4.310293, y: 0.15000002, z: 0.7844374}
+      rotation: {x: 0, y: 135, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-light
+      - index: 2
+        color: grey
+    - id: carpet-rectangle-stripes-square
+      group: -1
+      position: {x: 0.195946, y: 0.15, z: -2.0758224}
+      rotation: {x: 0, y: 5.625, z: 0}
+      scale: {x: 1.21, y: 0.23574902, z: 1.21}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: mauve
+    - id: table-side-detailed-b
+      group: -1
+      position: {x: 1.2533666, y: 0.15, z: -1.37271}
+      rotation: {x: 0, y: 348.75, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta-dark
+    - id: storage-plastic-box
+      group: -1
+      position: {x: -1.163144, y: 0.15, z: -1.8219693}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-cold-light
+      - index: 1
+        color: green-yellow
+      - index: 2
+        color: purple-light
+    - id: art-frame-thin-border-square-small (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.3524593, z: -1.5707647}
+      rotation: {x: 0, y: 0, z: -8.924717E-15}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting: sunset
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: art-frame-thin-portrait-small (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.7251513, z: -2.159955}
+      rotation: {x: 0, y: 0, z: -1.9204037E-25}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting: sunrise
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: shelf-hidden-long (%wall)
+      group: -1
+      position: {x: 0.25000018, y: 1.3099017, z: 1.414232}
+      rotation: {x: 0, y: 90, z: -7.4241194E-07}
+      scale: {x: 0.78589356, y: 0.67499995, z: 1.8125023}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+    - id: radio
+      group: -1
+      position: {x: 1.2499721, y: 0.90131474, z: 1.2302538}
+      rotation: {x: 0, y: 67.5, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: teal
+      - index: 0
+        color: brown-dark
+      - index: 1
+        color: brown
+    - id: cabinet-simple-planks
+      group: -1
+      position: {x: 0.675, y: 0.15, z: 1.1}
+      rotation: {x: 0, y: 89.99999, z: 0}
+      scale: {x: 1, y: 0.975, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-dark
+      - index: 1
+        color: terracotta-light
+    - id: cabinet-simple-planks
+      group: -1
+      position: {x: 0.2, y: 0.15, z: 1.1}
+      rotation: {x: 0, y: 89.99999, z: 0}
+      scale: {x: 1, y: 0.975, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-dark
+      - index: 1
+        color: terracotta-light
+    - id: cabinet-simple-open
+      group: -1
+      position: {x: -0.3, y: 0.15, z: 1.1}
+      rotation: {x: 0, y: 89.9968, z: 0}
+      scale: {x: 1, y: 0.975, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta-light
+      - index: 0
+        color: terracotta-dark
+    - id: washer
+      group: -1
+      position: {x: -0.3, y: 0.15, z: 1.125}
+      rotation: {x: 0, y: 89.99999, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: switch-light (%wall)
+      group: -1
+      position: {x: 1.7920425, y: 0.955436, z: 1.35}
+      rotation: {x: 0, y: 90, z: 3.21E-43}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+    - id: switch-light (%wall)
+      group: -1
+      position: {x: -1.35, y: 0.9538083, z: -0.08503005}
+      rotation: {x: -1.61E-43, y: 1.61E-43, z: -1.61E-43}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+    - id: floor-w1l2
+      group: -1
+      position: {x: 3.15, y: -2.2545103E-11, z: -1.6921277}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: car
+      group: -1
+      position: {x: 2.9722042, y: 0.1309374, z: -0.39374942}
+      rotation: {x: 0, y: 95.62497, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: mauve
+    - id: pet-door (%wall)
+      group: -1
+      position: {x: -1.3086777, y: 0.26, z: -0.59}
+      rotation: {x: -1.61E-43, y: -1.61E-43, z: -3.993537E-07}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: carpet-tasseled-rectangle-small
+      group: -1
+      position: {x: -0.9096638, y: 0.15, z: -0.5017247}
+      rotation: {x: 0, y: 355.4912, z: 0}
+      scale: {x: 0.56447387, y: 0.31885076, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: puddle
+      group: -1
+      position: {x: 3.4751024, y: 0.15, z: -0.5003532}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: black
+    - id: pillow-fluffy-square
+      group: -1
+      position: {x: 1.2362852, y: 0.37081212, z: -1.8379298}
+      rotation: {x: 0, y: 135.00002, z: 11.25}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+    - id: pillow-fluffy-square
+      group: -1
+      position: {x: 1.2429199, y: 0.3704391, z: -2.5638514}
+      rotation: {x: 5.3750005, y: 209.21938, z: 23.550869}
+      scale: {x: 0.8264463, y: 0.8264463, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+    - id: instrument-guitar-acoustic
+      group: -1
+      position: {x: -0.5127417, y: 0.1454362, z: -1.5827116}
+      rotation: {x: 16.874996, y: 270, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: floor-w2l2
+      group: -1
+      position: {x: 3.1499999, y: 8.336934E-20, z: -0.14999998}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 1
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: storage-plastic-box
+      group: -1
+      position: {x: 0.6704976, y: 0.2475, z: 1.056604}
+      rotation: {x: 0, y: 1.61E-43, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: blue-pastel
+      - index: 0
+        color: yellow-ocher-light
+      - index: 1
+        color: yellow-ocher
+    - id: cobweb-corner (%wall)
+      group: -1
+      position: {x: -1.3499999, y: 0.9883033, z: -2.7652617}
+      rotation: {x: 0, y: 0, z: -3.993537E-07}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: fitness-bench-seated-flat
+      group: -1
+      position: {x: 4.4482603, y: 0.15, z: -1.6343925}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: brown-dark
+      - index: 0
+        color: grey
+    - id: ironing-board
+      group: -1
+      position: {x: 0.3233451, y: 0.15, z: 0.07945326}
+      rotation: {x: 0, y: 157.5, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: fan-standing
+      group: -1
+      position: {x: 1.0994203, y: 0.15, z: 0.84948945}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 0.90909076, y: 0.9090909, z: 0.90909076}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: pegboard-shelves (%wall)
+      group: -1
+      position: {x: 1.520872, y: 1.2888634, z: 1.35}
+      rotation: {x: 0, y: 90, z: -3.21E-43}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cabinet-squares-small
+      group: -1
+      position: {x: -1.2036785, y: 0.15, z: 0.39999998}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta
+      - index: 1
+        color: terracotta
+    - id: hamper-laundry-basket-plastic-full
+      group: -1
+      position: {x: -0.43790638, y: 0.88125014, z: 1.1119592}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: red-muted
+      - index: 4
+        color: blue-pastel
+    - id: laundry-detergent
+      group: -1
+      position: {x: -0.18165168, y: 0.88125014, z: 1.2030537}
+      rotation: {x: 0, y: 208.125, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+      - index: 1
+        color: teal
+    - id: column-round
+      group: -1
+      position: {x: 4.3500004, y: 1.0025425, z: 1.325}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.19784456, y: 0.22284457, z: 0.19784456}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+      - index: 1
+        color: grey-dark
+    - id: column-round
+      group: -1
+      position: {x: 4.3500004, y: 1.9426273, z: 1.325}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.19784456, y: 0.22284457, z: 0.19784456}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+      - index: 1
+        color: grey-dark
+    - id: column-round
+      group: -1
+      position: {x: 4.3500004, y: 1.4725848, z: 1.325}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.19784456, y: 0.22284457, z: 0.19784456}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+      - index: 1
+        color: grey-dark
+    - id: brick-square (%wall)
+      group: -1
+      position: {x: 4.3500004, y: 0.6700002, z: 1.3500003}
+      rotation: {x: -3.8166657E-14, y: 90, z: -3.9935375E-07}
+      scale: {x: 1.3355101, y: 1.7605101, z: 1.3105102}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+    - id: brick-wide-thin (%wall)
+      group: -1
+      position: {x: 4.3500004, y: 0.7, z: 1.2164494}
+      rotation: {x: 0, y: 90, z: -3.9935378E-07}
+      scale: {x: 0.13554317, y: 0.18554316, z: 0.3355432}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: nightstand-open
+      group: -1
+      position: {x: 1.2, y: 0.15000002, z: -3}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: lamp-target-standing
+      group: -1
+      position: {x: 1.4302593, y: 0.15000002, z: -2.9761093}
+      rotation: {x: 0, y: 135, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: grey-dark
+      - index: 0
+        color: peach
+    - id: table-crafted-low
+      group: -1
+      position: {x: 0.29999995, y: 0.15706249, z: -2.2}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: gamepad
+      group: -1
+      position: {x: 0.59947824, y: 0.4997236, z: -2.434502}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 2
+        color: green-pastel
+    - id: bone
+      group: -1
+      position: {x: -0.12501878, y: 0.15, z: -0.9286257}
+      rotation: {x: 0, y: 134.99998, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: notepad-laying
+      group: -1
+      position: {x: 0.08982709, y: 0.57672364, z: -1.9540148}
+      rotation: {x: 0, y: 89.999985, z: 0}
+      scale: {x: 0.6830132, y: 0.6830134, z: 0.6830132}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: book-laying
+      group: -1
+      position: {x: 0.086862564, y: 0.4997236, z: -1.9628713}
+      rotation: {x: 0, y: 67.49999, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: electronic-receiver-device-large
+      group: -1
+      position: {x: -0.9753292, y: 0.6095041, z: -2.4242697}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: lamp-lava
+      group: -1
+      position: {x: -1.0166476, y: 0.708287, z: -2.453771}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: red-light
+      - index: 0
+        color: pink
+      - index: 1
+        color: green-muted
+    - id: cd-case
+      group: -1
+      position: {x: -0.8938577, y: 0.9757136, z: -2.6981502}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting: sun
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green
+    - id: cd-case
+      group: -1
+      position: {x: -0.9062398, y: 1.0057662, z: -2.6988213}
+      rotation: {x: 0, y: 247.5, z: 0}
+      scale: {x: 0.7513148, y: 0.75131476, z: 0.7513148}
+      texture: -1
+      painting: crown
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green
+    - id: art-frame-thick-square-small (%wall)
+      group: -1
+      position: {x: -1.3640872, y: 1.8015461, z: 0.7757702}
+      rotation: {x: 6.6376716E-15, y: -6.8301892E-06, z: -7.42412E-07}
+      scale: {x: 0.6209213, y: 0.62092125, z: 0.6209213}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey
+    - id: acoustic-foam-triangles (%wall)
+      group: -1
+      position: {x: -1.335913, y: 1.8607457, z: 0.71558154}
+      rotation: {x: 6.6376716E-15, y: -6.8301892E-06, z: -7.42412E-07}
+      scale: {x: 0.1346959, y: 0.55147403, z: 0.5370048}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 4.411109, y: 0.15, z: -1.0177342}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: car-wheel-diagonal
+      group: -1
+      position: {x: 4.1438766, y: 0.15, z: -1.4291254}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: toy-skateboard-wall (%wall)
+      group: -1
+      position: {x: 1.7380728, y: 0.4068246, z: 1.2809191}
+      rotation: {x: 348.37427, y: 68.891594, z: 19.36935}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: teal
+      - index: 1
+        color: green
+      - index: 4
+        color: orange
+    - id: toy-brick-stack
+      group: -1
+      position: {x: -0.9097931, y: 0.15, z: -2.0186934}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+      - index: 1
+        color: purple-dark
+      - index: 2
+        color: green-kenney
+    - id: toy-brick
+      group: -1
+      position: {x: -0.9440112, y: 0.15, z: -1.9120849}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+    - id: trashbag-flat
+      group: -1
+      position: {x: 4.444332, y: 0.15000002, z: 1.1690482}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: trashbag
+      group: -1
+      position: {x: 3.964558, y: 0.15, z: 1.0645621}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 3.9482207, y: 0.14999999, z: 0.6385485}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-open
+      group: -1
+      position: {x: -1.2110158, y: 0.8181819, z: 0.24003856}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: teal
+      - index: 0
+        color: blue-lighter
+    - id: gamepad
+      group: -1
+      position: {x: 0.6069938, y: 0.4997236, z: -2.2192454}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.6209212, y: 0.62092125, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 2
+        color: green-pastel
+    - id: plush-bear
+      group: -1
+      position: {x: -0.88559973, y: 0.12196472, z: -1.6739533}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.3855431, y: 0.38554317, z: 0.3855431}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.7833432, y: 0.15, z: -2.2110088}
+      rotation: {x: 0, y: 1.7075473E-06, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: yellow-ocher
+    - id: pizza-box-open
+      group: -1
+      position: {x: 0.167647, y: 0.4997236, z: -2.3119555}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-dark
+    - id: pizza-slice
+      group: -1
+      position: {x: 0.19852403, y: 0.5087552, z: -2.2066736}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.5131581, y: 0.513158, z: 0.5131581}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: snacks-bag-open
+      group: -1
+      position: {x: 0.18295498, y: 0.15589373, z: -2.4654117}
+      rotation: {x: 0, y: 135.00002, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: soda-can
+      group: -1
+      position: {x: 0.41660523, y: 0.4997236, z: -2.520716}
+      rotation: {x: 0, y: 90, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple-dark
+      - index: 1
+        color: purple-light
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 0.42345488, y: 0.15589373, z: -2.4584367}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: cobweb-corner (%wall)
+      group: -1
+      position: {x: -1.35, y: 2.1585476, z: 1.3448535}
+      rotation: {x: -1.927E-42, y: 1.3437576E-27, z: 3.7120597E-07}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cobweb-c (%wall)
+      group: -1
+      position: {x: -0.87656224, y: 2.4472082, z: 1.35}
+      rotation: {x: 0, y: 90, z: -7.4241194E-07}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: chips
+      group: -1
+      position: {x: 0.3250329, y: 0.15589373, z: -2.6082911}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: chips
+      group: -1
+      position: {x: 0.9017088, y: 0.15589373, z: -1.5847895}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: clothing-floor-sock
+      group: -1
+      position: {x: -0.43997228, y: 0.15589373, z: -1.3024843}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 1
+        color: yellow-ocher
+    - id: clothing-floor-sock
+      group: -1
+      position: {x: -0.3007192, y: 0.15813152, z: -1.2389591}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 1
+        color: yellow-ocher
+    - id: fitness-kettebell
+      group: -1
+      position: {x: 4.2606807, y: 0.15, z: -1.730016}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: essence
+      group: -1
+      position: {x: 1.0841293, y: 1.3774017, z: 1.2529364}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-long-open
+      group: -1
+      position: {x: 2.2086244, y: 0.15, z: -2.251587}
+      rotation: {x: 0, y: 85.38888, z: 0}
+      scale: {x: 0.6209212, y: 0.62092125, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-yellow
+    - id: trashbag-flat
+      group: -1
+      position: {x: 2.6588066, y: 0.15, z: -2.2211785}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 4.4485297, y: 0.15, z: -2.2148407}
+      rotation: {x: 0, y: 89.99999, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta
+      - index: 0
+        color: mauve
+    - id: cardboard-box-long
+      group: -1
+      position: {x: 4.451445, y: 0.47848696, z: -2.0160344}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-pile
+      group: -1
+      position: {x: 4.4472184, y: 0.76023, z: -2.1810367}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cable-long-bend
+      group: -1
+      position: {x: 4.145748, y: 0.15, z: -1.7890408}
+      rotation: {x: 0, y: 135, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 4.0682926, y: 0.15000002, z: -2.212275}
+      rotation: {x: 0, y: 354.05893, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: yellow-ocher
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 4.0983686, y: 0.52500004, z: -2.2555013}
+      rotation: {x: 0, y: 67.50001, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: trashbag
+      group: -1
+      position: {x: 3.8722904, y: 0.15, z: -1.8037397}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cd-case
+      group: -1
+      position: {x: 4.2452593, y: 0.15, z: -1.5036181}
+      rotation: {x: 0, y: 112.49999, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting: kenney_secret
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green
+    - id: cardboard-box
+      group: -1
+      position: {x: 4.54718, y: 0.15, z: -1.7052747}
+      rotation: {x: 0, y: 2.5613208E-06, z: 0}
+      scale: {x: 0.513158, y: 0.513158, z: 0.513158}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 0.9067688, y: 0.15, z: -2.963797}
+      rotation: {x: 0, y: 247.5, z: 0}
+      scale: {x: 0.75131464, y: 0.75131476, z: 0.75131464}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: soda-can
+      group: -1
+      position: {x: 0.4745409, y: 0.4997236, z: -2.4272165}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: 1.17546, y: 0.19348644, z: -3.0563433}
+      rotation: {x: 270, y: 233.91144, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: 1.5977737, y: 0.15, z: -2.9097576}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: purple-light
+      - index: 2
+        color: purple-dark
+    - id: soda-can
+      group: -1
+      position: {x: -0.9529328, y: 0.70828706, z: -2.3588197}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can-crushed
+      group: -1
+      position: {x: -0.9027162, y: 1.0358187, z: -2.6612406}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: soda-can
+      group: -1
+      position: {x: -0.8673517, y: 0.6095041, z: -3.0021513}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: purple-light
+      - index: 2
+        color: purple-dark
+    - id: dirt-c
+      group: -1
+      position: {x: 0.6867375, y: 0.15589373, z: -2.0347018}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-b
+      group: -1
+      position: {x: 2.8917885, y: 0.15, z: -2.317257}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-a
+      group: -1
+      position: {x: 2.0392652, y: 0.15, z: -2.0776877}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pile-leafs-small
+      group: -1
+      position: {x: 3.4133108, y: 0.15, z: 1.1696743}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pile-leafs
+      group: -1
+      position: {x: 2.1095614, y: 0.15, z: 1.0933552}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: plant-small (%thumbnail)
+      group: -1
+      position: {x: -1.1573693, y: 1.440909, z: 1.1674271}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.7820852, y: 0.14999999, z: -1.8111192}
+      rotation: {x: 0, y: 168.62285, z: 0}
+      scale: {x: 0.9090909, y: 0.8840909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta
+      - index: 0
+        color: mauve
+    - id: books-laying (%thumbnail)
+      group: -1
+      position: {x: 1.2580901, y: 0.39793387, z: -1.415181}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: blue-lighter
+      - index: 2
+        color: green-cold-light
+      - index: 3
+        color: red-light
+    - id: chips
+      group: -1
+      position: {x: 1.4231659, y: 0.15, z: -1.4505929}
+      rotation: {x: 0, y: 44.999992, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-long
+      group: -1
+      position: {x: 1.7039418, y: 0.15, z: -1.3128419}
+      rotation: {x: 0, y: 354.375, z: 0}
+      scale: {x: 0.75131476, y: 0.8763147, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-empty
+      group: -1
+      position: {x: 4.4328957, y: 0.76023, z: -1.903329}
+      rotation: {x: 0, y: 11.250011, z: 0}
+      scale: {x: 0.62092113, y: 0.62092125, z: 0.62092113}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: purple
+      - index: 0
+        color: purple
+    - id: paint-can-empty
+      group: -1
+      position: {x: 4.490306, y: 0.15, z: -0.66077447}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-lighter
+      - index: 1
+        color: blue-light
+      - index: 2
+        color: grey-dark
+      - index: 3
+        color: blue-dark
+    - id: paint-can-empty
+      group: -1
+      position: {x: 4.3890986, y: 0.3456101, z: -0.385122}
+      rotation: {x: -3.5418673E-06, y: 135, z: 180}
+      scale: {x: 0.6830133, y: 0.6830134, z: 0.6830133}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-lighter
+      - index: 3
+        color: blue-dark
+    - id: pencil
+      group: -1
+      position: {x: 0.4061628, y: 0.6441868, z: -2.0830667}
+      rotation: {x: 283.31567, y: 324.49973, z: 57.294422}
+      scale: {x: 0.46650732, y: 0.46650732, z: 0.87617683}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: orange
+      - index: 0
+        color: orange
+    - id: pencil
+      group: -1
+      position: {x: 0.45563826, y: 0.6717977, z: -2.099812}
+      rotation: {x: 277.14868, y: 22.500036, z: -2.0582062E-05}
+      scale: {x: 0.4665073, y: 0.46650726, z: 0.88622665}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: purple
+      - index: 0
+        color: purple
+    - id: pencil
+      group: -1
+      position: {x: 0.45102838, y: 0.6598558, z: -2.1315358}
+      rotation: {x: 279.24072, y: 135.99768, z: 247.63583}
+      scale: {x: 0.4665073, y: 0.46650726, z: 0.88622653}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-dark
+      - index: 0
+        color: green-dark
+    - id: pencil
+      group: -1
+      position: {x: 0.43766287, y: 0.64460796, z: -2.1653147}
+      rotation: {x: 283.25244, y: 170.14456, z: 211.66034}
+      scale: {x: 0.46650732, y: 0.46650723, z: 0.8862266}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-pastel
+      - index: 0
+        color: green-cold-light
+    - id: pencil
+      group: -1
+      position: {x: 0.40957922, y: 0.66449267, z: -2.1575894}
+      rotation: {x: 281.87906, y: 183.54793, z: 198.57431}
+      scale: {x: 0.46650723, y: 0.46650738, z: 0.88622695}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: red
+      - index: 0
+        color: red
+    - id: pencil
+      group: -1
+      position: {x: 0.38055962, y: 0.6387848, z: -2.1404078}
+      rotation: {x: 281.25208, y: 202.5, z: 180}
+      scale: {x: 0.4665073, y: 0.46650735, z: 0.8293831}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-light
+      - index: 1
+        color: blue-light
+    - id: makeup-display-cup
+      group: -1
+      position: {x: 0.41444358, y: 0.4997236, z: -2.139284}
+      rotation: {x: 0, y: 22.500008, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+      - index: 1
+        color: blue-lighter
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 0.31683356, y: 0.4997236, z: -2.5261922}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 1.5290897, y: 0.5477272, z: -1.7922592}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: photo-string (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.4227117, z: 0.37504482}
+      rotation: {x: 0, y: 0, z: -7.424119E-07}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: plush-mushroom
+      group: -1
+      position: {x: 1.2239187, y: 0.4614541, z: -3.0080903}
+      rotation: {x: 0, y: 134.99998, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: shoebox
+      group: -1
+      position: {x: 0.19689767, y: 0.2475, z: 1.0788435}
+      rotation: {x: 0, y: 89.999985, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-dark
+      - index: 1
+        color: black
+    - id: plaid
+      group: -1
+      position: {x: 0.12817132, y: 0.515625, z: 1.0483305}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: plaid
+      group: -1
+      position: {x: 0.12817132, y: 0.5860422, z: 1.0483305}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: plaid
+      group: -1
+      position: {x: 0.12817132, y: 0.65550804, z: 1.0483305}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: jar-tall
+      group: -1
+      position: {x: 0.31816795, y: 0.515625, z: 1.1499124}
+      rotation: {x: 0, y: 90, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: jar-tall
+      group: -1
+      position: {x: 0.32417145, y: 0.515625, z: 0.99182284}
+      rotation: {x: 0, y: 89.99999, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: storage-plastic-box
+      group: -1
+      position: {x: 0.67153096, y: 0.515625, z: 1.0601525}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: blue-pastel
+      - index: 0
+        color: yellow-ocher-light
+      - index: 1
+        color: yellow-ocher
+    - id: shoes-sneakers
+      group: -1
+      position: {x: -1.159729, y: 0.19545454, z: 0.25485972}
+      rotation: {x: 0, y: 2.3930947E-05, z: 0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.56160027}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-muted
+    - id: shoes-boots
+      group: -1
+      position: {x: -1.1457003, y: 0.19545454, z: 0.5602382}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.62092125, y: 0.84485275, z: 0.57603455}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: pink
+      - index: 0
+        color: red-light
+    - id: shoes-slippers
+      group: -1
+      position: {x: -1.1911964, y: 0.5068182, z: 0.2506764}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.59254485}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-dark
+    - id: shoes-sneakers
+      group: -1
+      position: {x: -1.1918749, y: 0.5068182, z: 0.55761415}
+      rotation: {x: 0, y: 180.00002, z: 0}
+      scale: {x: 0.6830134, y: 0.9115574, z: 0.5633417}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: purple
+      - index: 0
+        color: purple-dark
+    - id: pot-small
+      group: -1
+      position: {x: -1.2545296, y: 0.81818175, z: 0.61220866}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-cold-light
+    - id: printer-paper
+      group: -1
+      position: {x: 3.979935, y: 0.46570867, z: 0.6084197}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 0.4208747, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-light
+    - id: soda-can
+      group: -1
+      position: {x: 4.509099, y: 0.4977572, z: -1.6689967}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: 4.5065794, y: 0.15, z: -1.4928079}
+      rotation: {x: 0, y: -2.3905664E-05, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: clothing-floor-shirt
+      group: -1
+      position: {x: -0.06376697, y: 0.15589373, z: -1.5370837}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: red-alternative
+      - index: 1
+        color: orange
+    - id: clothing-floor-pants-folded
+      group: -1
+      position: {x: 0.16230449, y: 0.15589373, z: -1.5697918}
+      rotation: {x: 0, y: 44.999996, z: 0}
+      scale: {x: 0.68301344, y: 0.6830134, z: 0.68301344}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-dark
+    - id: dirt-a
+      group: -1
+      position: {x: -0.9247919, y: 0.15, z: -2.444661}
+      rotation: {x: 0, y: 90.00002, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: -1.1991102, y: 0.15000002, z: -2.8942301}
+      rotation: {x: 0, y: 354.76035, z: 0}
+      scale: {x: 0.6830134, y: 0.6032334, z: 0.99105877}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: yellow-ocher
+    - id: soda-can
+      group: -1
+      position: {x: -0.95982003, y: 0.15, z: -2.8072715}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: -0.94727784, y: 0.15, z: -2.927676}
+      rotation: {x: 0, y: -2.3909686E-05, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: -1.2712387, y: 0.37621254, z: -2.8020313}
+      rotation: {x: 0, y: -2.3909684E-05, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: cardboard-box
+      group: -1
+      position: {x: 4.4303894, y: 0.15, z: -0.045187145}
+      rotation: {x: 0, y: 257.41217, z: 0}
+      scale: {x: 0.90909094, y: 0.9090909, z: 0.90909094}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-cold-light
+    - id: cardboard-box
+      group: -1
+      position: {x: 4.4291315, y: 0.15000002, z: 0.35470247}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: yellow-ocher
+    - id: paint-can-empty
+      group: -1
+      position: {x: 4.4535847, y: 0.52500004, z: 0.37407118}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 0.68301344, y: 0.6830134, z: 0.68301344}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: red-muted
+      - index: 1
+        color: red-alternative
+      - index: 2
+        color: grey-dark
+      - index: 3
+        color: red
+    - id: pile-leafs
+      group: -1
+      position: {x: 3.6732197, y: 0.15, z: -2.0893238}
+      rotation: {x: 0, y: -6.8301924E-06, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-b
+      group: -1
+      position: {x: 3.452545, y: 0.15, z: -2.2333903}
+      rotation: {x: 0, y: 135.00002, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: chips
+      group: -1
+      position: {x: 4.1556616, y: 0.14999999, z: 0.5055419}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-c
+      group: -1
+      position: {x: 1.7269765, y: 0.15, z: 1.0631127}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: snacks-bag-open
+      group: -1
+      position: {x: 4.0794516, y: 0.15, z: 0.31232163}
+      rotation: {x: 0, y: 22.500011, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: soda-can
+      group: -1
+      position: {x: 4.156453, y: 0.15, z: 0.13166577}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can
+      group: -1
+      position: {x: 4.1876836, y: 0.15, z: 0.016367167}
+      rotation: {x: 0, y: -2.3906967E-05, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 4.0438395, y: 0.5120049, z: 0.56309634}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: purple-light
+      - index: 2
+        color: purple-dark
+    - id: dirt-a
+      group: -1
+      position: {x: 3.6514435, y: 0.15000002, z: 0.13123423}
+      rotation: {x: 0, y: 90.000015, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: printer-paper
+      group: -1
+      position: {x: 2.851754, y: 0.15, z: -1.9710538}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 1, y: 0.4208747, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-lighter
+    - id: can-open
+      group: -1
+      position: {x: 4.575348, y: 0.15, z: 0.62527215}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.9090908, y: 0.9090909, z: 0.9090908}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: banana-peel
+      group: -1
+      position: {x: 1.4745998, y: 0.90131485, z: 1.2062083}
+      rotation: {x: 0, y: 67.50001, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: apple-core
+      group: -1
+      position: {x: 0.5236916, y: 0.50075585, z: -2.0539238}
+      rotation: {x: 12.02296, y: 0, z: 0}
+      scale: {x: 0.62092125, y: 0.62092125, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: boba-tea (%thumbnail)
+      group: -1
+      position: {x: 4.3657665, y: 0.49090907, z: 0.008776084}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cookie
+      group: -1
+      position: {x: 0.5729433, y: 0.15589373, z: -2.1004477}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.4371119, y: 0.15, z: 0.80778897}
+      rotation: {x: 0, y: 90, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: yellow-ocher
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.425817, y: 0.525, z: 0.7861182}
+      rotation: {x: 0, y: 67.50002, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-long-open
+      group: -1
+      position: {x: 1.7957277, y: 0.15, z: 0.683018}
+      rotation: {x: 0, y: 181.0139, z: 0}
+      scale: {x: 0.7459212, y: 0.62092125, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-yellow
+    - id: cable-pile
+      group: -1
+      position: {x: 1.4501781, y: 0.8349173, z: 0.783559}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: paint-can-empty
+      group: -1
+      position: {x: 1.4873753, y: 0.15, z: 0.47887796}
+      rotation: {x: 0, y: 134.99998, z: 0}
+      scale: {x: 0.68301344, y: 0.6830134, z: 0.68301344}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: red-muted
+      - index: 1
+        color: red-alternative
+      - index: 2
+        color: grey-dark
+      - index: 3
+        color: red
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 1.7849349, y: 0.15, z: 0.18491636}
+      rotation: {x: 0, y: 72.62627, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-c
+      group: -1
+      position: {x: 1.4787644, y: 0.15, z: 0.29012305}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.6847908, y: 0.4786181, z: -1.2835552}
+      rotation: {x: 0, y: 258.62286, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta
+      - index: 0
+        color: mauve
+    - id: snacks-bag-open
+      group: -1
+      position: {x: 2.0116692, y: 0.15, z: -1.586901}
+      rotation: {x: 0, y: 157.50002, z: 0}
+      scale: {x: 0.8264463, y: 0.82644624, z: 0.8264463}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: chips
+      group: -1
+      position: {x: 4.2095556, y: 0.15, z: -0.10893476}
+      rotation: {x: 0, y: 44.999992, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: dirt-c
+      group: -1
+      position: {x: -0.91767514, y: 0.15, z: 0.0952228}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cabinet-squares-basket
+      group: -1
+      position: {x: -1.1899999, y: 0.5068182, z: 0.87089884}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+    - id: cabinet-squares-basket
+      group: -1
+      position: {x: -1.1899999, y: 0.5068182, z: 1.1780869}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+    - id: perfume
+      group: -1
+      position: {x: -1.1317322, y: 1.1295453, z: 1.2501979}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.78462183}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-light
+      - index: 1
+        color: yellow-ocher-light
+    - id: perfume
+      group: -1
+      position: {x: -1.1329601, y: 1.1295453, z: 1.1229851}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.78462183}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-light
+      - index: 1
+        color: yellow-ocher-light
+    - id: laundry-detergent
+      group: -1
+      position: {x: -1.1521088, y: 0.81818175, z: 1.247646}
+      rotation: {x: 0, y: 163.125, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+      - index: 1
+        color: teal
+    - id: laundry-detergent
+      group: -1
+      position: {x: -1.1481738, y: 0.81818175, z: 1.1365322}
+      rotation: {x: 0, y: 163.125, z: 0}
+      scale: {x: 0.7513149, y: 0.75131476, z: 0.7513149}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+      - index: 1
+        color: teal
+    - id: book
+      group: -1
+      position: {x: -1.1647252, y: 0.81818175, z: 0.9685244}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9090909, z: 0.9090909}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: pink
+    - id: book
+      group: -1
+      position: {x: -1.1647252, y: 0.81818175, z: 0.9088163}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.83684516, z: 0.6578784}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: green
+    - id: book
+      group: -1
+      position: {x: -1.1647252, y: 0.81818175, z: 0.85602486}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.9001968, z: 0.7036607}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: brown-light
+    - id: book
+      group: -1
+      position: {x: -1.1647252, y: 0.81818175, z: 0.807695}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.836892, z: 0.5604544}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: blue-dark
+    - id: book
+      group: -1
+      position: {x: -1.1647252, y: 0.81818175, z: 0.76120985}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.9090909, y: 0.75522476, z: 0.62828666}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: green-cold
+    - id: shoebox
+      group: -1
+      position: {x: -1.1730788, y: 1.1295453, z: 0.86741346}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.62092125, y: 0.57092124, z: 0.62092125}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-light
+      - index: 1
+        color: brown-dark
+    - id: shoebox
+      group: -1
+      position: {x: -1.1727045, y: 1.2494388, z: 0.86743844}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.6209212, y: 0.57092124, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta-light
+      - index: 1
+        color: brown-dark
+    - id: plant-large-spikes
+      group: -1
+      position: {x: -0.6044063, y: 1.3774017, z: 1.246684}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.4665073, y: 0.4665073, z: 0.4665073}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: blue-lighter
+    - id: plant-tiny
+      group: -1
+      position: {x: -0.45119464, y: 1.3774017, z: 1.2444766}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown
+    - id: plant-small-cactus-tall
+      group: -1
+      position: {x: -0.29767543, y: 1.3774017, z: 1.2436177}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-muted
+    - id: plant-palm-small
+      group: -1
+      position: {x: 0.13101599, y: 1.3774017, z: 1.2405751}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 0.4240975, y: 0.4240975, z: 0.4240975}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green
+    - id: dirt-c
+      group: -1
+      position: {x: 0.70788324, y: 0.15, z: 0.7681109}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: brown-muted-dark
+    - id: cardboard-box
+      group: -1
+      position: {x: 0.7424699, y: 0.88125, z: 1.1294775}
+      rotation: {x: 0, y: 279.9122, z: 0}
+      scale: {x: 0.7513148, y: 0.75131476, z: 0.9513156}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-cold-light
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 0.79584557, y: 1.1629931, z: 1.0679247}
+      rotation: {x: 0, y: 270, z: 0}
+      scale: {x: 0.5644737, y: 0.56447387, z: 0.5644737}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: soda-can
+      group: -1
+      position: {x: 0.61987424, y: 0.8812499, z: 0.96970564}
+      rotation: {x: 0, y: -2.3906965E-05, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: purple-light
+      - index: 2
+        color: purple-dark
+    - id: iron
+      group: -1
+      position: {x: 0.78101003, y: 0.66652906, z: 0.26696116}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: blue-light
+      - index: 0
+        color: blue-lighter
+    - id: jar
+      group: -1
+      position: {x: 0.12898572, y: 0.88125, z: 1.2326978}
+      rotation: {x: 0, y: 90, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 0
+        color: green-yellow
+    - id: jar-tall
+      group: -1
+      position: {x: -0.0179087, y: 0.88125, z: 1.1998972}
+      rotation: {x: 0, y: 90, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-yellow
+      - index: 1
+        color: terracotta
+      - index: 2
+        color: green-cold-light
+    - id: clothing-floor-shirt
+      group: -1
+      position: {x: 0.27796295, y: 0.88125, z: 1.0457712}
+      rotation: {x: 0, y: 67.5, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: purple-light
+      - index: 1
+        color: purple
+    - id: plant-small-wild
+      group: -1
+      position: {x: -0.12932983, y: 1.3774017, z: 1.2335627}
+      rotation: {x: 0, y: 135, z: 0}
+      scale: {x: 0.56447387, y: 0.56447387, z: 0.56447387}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: yellow-ocher
+    - id: rock-formation-a
+      group: -1
+      position: {x: 0.37915272, y: 1.3774017, z: 1.2580068}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.3186307, y: 0.3186307, z: 0.3186307}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: grey
+    - id: scarf
+      group: -1
+      position: {x: 1.6825703, y: 0.7945271, z: -1.3073866}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: plush-cat
+      group: -1
+      position: {x: 0.7701722, y: 0.40384442, z: -1.1014578}
+      rotation: {x: 11.25, y: 0, z: 0}
+      scale: {x: 0.3504938, y: 0.3504938, z: 0.2754938}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: red-light
+      - index: 1
+        color: white
+    - id: cardboard-box-long-open
+      group: -1
+      position: {x: 0.37925565, y: 0.15, z: -0.15005648}
+      rotation: {x: 0, y: 226.0139, z: 0}
+      scale: {x: 0.7459212, y: 0.62092125, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-yellow
+    - id: soda-can
+      group: -1
+      position: {x: 0.67356634, y: 0.15, z: 0.0054972917}
+      rotation: {x: 0, y: 269.99997, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 0.6942719, y: 0.15, z: -0.10531983}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: dirt-b
+      group: -1
+      position: {x: 0.031597435, y: 0.15, z: -0.24306461}
+      rotation: {x: 0, y: 225.00002, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: toy-brick-stack
+      group: -1
+      position: {x: -0.8417511, y: 0.15, z: -1.9012719}
+      rotation: {x: 0, y: 90.00002, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue
+      - index: 1
+        color: yellow
+      - index: 2
+        color: pink
+    - id: toy-brick-stack
+      group: -1
+      position: {x: -1.0347412, y: 0.15, z: -2.0730395}
+      rotation: {x: 0, y: 315.00003, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue
+      - index: 1
+        color: yellow
+      - index: 2
+        color: pink
+    - id: toy-brick-stack
+      group: -1
+      position: {x: -1.1853166, y: 0.368257, z: -1.8968434}
+      rotation: {x: 0, y: 22.500029, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue
+      - index: 1
+        color: yellow
+      - index: 2
+        color: pink
+    - id: toy-brick-stack
+      group: -1
+      position: {x: -1.1486359, y: 0.368257, z: -1.773038}
+      rotation: {x: 0, y: 202.5, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: orange
+      - index: 1
+        color: purple-dark
+      - index: 2
+        color: green-kenney
+    - id: cardboard-box
+      group: -1
+      position: {x: -0.7928872, y: 0.15, z: 1.1121519}
+      rotation: {x: 0, y: 279.91217, z: 0}
+      scale: {x: 0.90909106, y: 0.9090909, z: 0.90909106}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-cold-light
+    - id: cardboard-box-open
+      group: -1
+      position: {x: -0.8050305, y: 0.49090907, z: 1.08731}
+      rotation: {x: 0, y: 72.62626, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: -0.7244584, y: 0.15, z: 0.73258084}
+      rotation: {x: 0, y: 168.62286, z: 0}
+      scale: {x: 0.9090908, y: 0.9090909, z: 0.9090908}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: terracotta
+      - index: 0
+        color: mauve
+    - id: clothing-floor-sock
+      group: -1
+      position: {x: -0.72914135, y: 0.49090916, z: 0.8036996}
+      rotation: {x: 0, y: 45.000004, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 1
+        color: blue-light
+    - id: clothing-floor-sock
+      group: -1
+      position: {x: -1.1619133, y: 0.81818175, z: 0.46464717}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green
+      - index: 1
+        color: blue-light
+    - id: clothing-floor-sock
+      group: -1
+      position: {x: 3.8470788, y: 0.15, z: -1.4444857}
+      rotation: {x: 0, y: 180.00002, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: purple-light
+      - index: 1
+        color: green-pastel
+    - id: cardboard-box-long
+      group: -1
+      position: {x: 1.7812779, y: 0.525, z: -2.2106445}
+      rotation: {x: 0, y: 354.375, z: 0}
+      scale: {x: 0.7513148, y: 0.8763147, z: 0.5013148}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box
+      group: -1
+      position: {x: 1.7852719, y: 0.481534, z: -1.7297068}
+      rotation: {x: 0, y: 258.62286, z: 0}
+      scale: {x: 1.1764464, y: 0.8264463, z: 0.82644653}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: terracotta
+      - index: 1
+        color: brown-muted-dark
+    - id: cardboard-box-open
+      group: -1
+      position: {x: 1.7755892, y: 0.8536181, z: -2.2017696}
+      rotation: {x: 0, y: 292.50003, z: 0}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cardboard-box-long-open
+      group: -1
+      position: {x: 1.7727513, y: 0.79145133, z: -1.775051}
+      rotation: {x: 0, y: 181.0139, z: 0}
+      scale: {x: 0.7459212, y: 0.62092125, z: 0.6209212}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-yellow
+      - index: 0
+        color: green-yellow
+    - id: perfume-tall
+      group: -1
+      position: {x: 1.4070992, y: 1.4053172, z: 1.2433724}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: blue-light
+      - index: 1
+        color: green-muted
+    - id: large-clock-modern (%wall)
+      group: -1
+      position: {x: -1.35, y: 1.5353969, z: 0.15310407}
+      rotation: {x: 0, y: 0, z: -7.424119E-07}
+      scale: {x: 0.75131476, y: 0.75131476, z: 0.75131476}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: blue-pastel
+    - id: mount-fish (%wall)
+      group: -1
+      position: {x: 0.9219838, y: 2.0052285, z: 1.3500003}
+      rotation: {x: -5.0888875E-14, y: 90, z: -7.42412E-07}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: purple-light
+    - id: mount-fish-round (%wall)
+      group: -1
+      position: {x: 0.21961212, y: 1.9799776, z: 1.3500001}
+      rotation: {x: 0, y: 90, z: -7.4241194E-07}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: teal
+      - index: 0
+        color: green-muted
+    - id: mount-fish (%wall)
+      group: -1
+      position: {x: -0.4363782, y: 1.9796259, z: 1.3500001}
+      rotation: {x: 0, y: 90, z: -7.4241194E-07}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: orange
+      - index: 1
+        color: yellow-ocher
+    - id: rubber-ducky
+      group: -1
+      position: {x: 1.6105757, y: 1.7434089, z: 1.2223549}
+      rotation: {x: 0, y: 337.5, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: perfume-tall
+      group: -1
+      position: {x: 1.5003803, y: 1.4053172, z: 1.248747}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: green-dark
+      - index: 1
+        color: green-cold
+    - id: instrument-trumpet
+      group: -1
+      position: {x: -1.1902857, y: 1.4409091, z: 0.907692}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: lamp-ceiling-industrial (%ceiling)
+      group: -1
+      position: {x: 0.23405159, y: 2.45, z: -0.80195785}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 0.5619999, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: lamp-ceiling-industrial (%ceiling)
+      group: -1
+      position: {x: 3.1090517, y: 2.45, z: -0.80195785}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 0.5619999, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: banana-peel
+      group: -1
+      position: {x: 0.34389922, y: 0.4997236, z: -1.9727538}
+      rotation: {x: 0, y: 127.33191, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: pizza-slice
+      group: -1
+      position: {x: 1.5492419, y: 0.15, z: -2.4214492}
+      rotation: {x: 0, y: 157.5, z: 0}
+      scale: {x: 0.5131581, y: 0.513158, z: 0.5131581}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: toy-ball
+      group: -1
+      position: {x: -1.3059627, y: 0.17209569, z: -0.046553463}
+      rotation: {x: 0, y: 0, z: 309.18542}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: white
+      - index: 1
+        color: grey-lighter
+    - id: toy-train-track
+      group: -1
+      position: {x: -0.49101543, y: 0.15589373, z: -2.1244185}
+      rotation: {x: 0, y: 18.193558, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: toy-train-a
+      group: -1
+      position: {x: -0.62149864, y: 0.17655489, z: -2.1304235}
+      rotation: {x: 0, y: 22.500004, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: toy-train-b
+      group: -1
+      position: {x: -0.58910644, y: 0.17655489, z: -2.0279608}
+      rotation: {x: 0, y: 22.500002, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: tree-christmas
+      group: -1
+      position: {x: -0.4730457, y: 0.15589373, z: -2.0218709}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.11167808, y: 0.11167808, z: 0.11167808}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: tree-pine
+      group: -1
+      position: {x: -0.46589327, y: 0.15589373, z: -2.1223207}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.14864354, y: 0.14864354, z: 0.14864354}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-dark
+    - id: pet-bed-round
+      group: -1
+      position: {x: -0.50740945, y: 0.15, z: -2.7942665}
+      rotation: {x: 0, y: 202.49998, z: 0}
+      scale: {x: 0.6830134, y: 0.6830134, z: 0.6830134}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green-muted
+    - id: cobweb-b (%wall)
+      group: -1
+      position: {x: 4.0391536, y: 2.4513855, z: 1.3500003}
+      rotation: {x: 0, y: 90, z: -3.21E-43}
+      scale: {x: 1, y: 1, z: 0.69922435}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: cobweb-a (%wall)
+      group: -1
+      position: {x: 3.6729348, y: 2.449421, z: 1.3500001}
+      rotation: {x: 0, y: 90.00002, z: -3.21E-43}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: can-open
+      group: -1
+      position: {x: 4.5292487, y: 0.15, z: -0.2734003}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 1
+        color: green
+    - id: food-milk-carton
+      group: -1
+      position: {x: 0.59284693, y: 0.49972367, z: -1.9337794}
+      rotation: {x: 0, y: 315, z: 0}
+      scale: {x: 0.8264462, y: 0.82644624, z: 0.8264462}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements: []
+    - id: soda-can-crushed
+      group: -1
+      position: {x: 1.2899373, y: 0.90131485, z: 1.1156102}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.82644624, y: 0.82644624, z: 0.82644624}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 0
+        color: grey-light
+      - index: 1
+        color: yellow-light
+      - index: 2
+        color: green-cold-light
+    - id: soda-can
+      group: -1
+      position: {x: 3.7682426, y: 0.15, z: -2.3511388}
+      rotation: {x: 0, y: 224.99998, z: 0}
+      scale: {x: 0.8264461, y: 0.82644624, z: 0.8264461}
+      texture: -1
+      painting:
+      activated: 1
+      locked: 0
+      hidden: 0
+      damage: 1
+      colorReplacements:
+      - index: 2
+        color: green-cold-light
+      - index: 1
+        color: yellow-light
+    thumbnail: ffd8ffe000104a46494600010100000100010000ffdb00430001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101ffdb00430101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101ffc00011080080008003012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00fcbdd3f4b94ccaa8115046a72e858ee6241c8040c617be08ed9cf1ded969ae01dad1e4aedc889bd307fe5a72081c7000353e9da7012300a7948f923820b3f0381c8cf278e70324715dad9e9fc0f94838ec0738ea39e07a71d3ae718afb78c52df5575d37d5697e9a6bb9f8554abadfd36d6eecb64f6b58cdb2b1754c178b2632a7f72c7f84a8ddf360a81838e78ec735b7a6d9344c0b49185054f11b6e214e72a3760e06480482476ef5b16fa7e3a8cf2320f23d720fd41e7b63a71cebc5a7e08e075eb8efe9c738e7ea07d6b549e9656b5b7bad74be97dafafcbe472caa2efa74efa6bfaafc0c2b1b69a3b9f3378cb975276367e72792413fc44f030338e71cd5dbcb49bcf836e0884641313724bb3607cd923a7f7b2470460d6e2d91e08041cf5ea07539feb9ec464f07998dac8d8dcc5bb0dccc73db3f87a0feb8a6a2ecd37af75e56f4ec67cfd7cad6d3a592d6ddafff00019cecd693477426560e1e12ca163da515a365e412720632410323233c0cdcd2edef8433c10cb1ab396652626dac4a6c2ad97200504103049241ed9ad3162738dbc9cf1d320f031df239e08e72473c9ab11dbcb1f2a593a1e3be38e410320e3904633e95696b7bff005a6b6eaf4f4fd573ae5b764b74b5b3febfa48cf22f2316768668c030c8b2b6c52afe60621481b48db85fe2ce4804d50d5ede778ada11b71133925518ae5cfca31bb86ea3ef71cfad6f7d9a41c297e411d703079238e9c8e7a03ef501b2624fcbce327b9efc60f1c9f4fc7b64b7e3fe4b6ec28cacd3edae8babdddb4d6da765d3a1897b6f706c2287f760c8dbdb746776540cee1e6608ea7208c600239c54515bdc7d922cb2621dc7ee105801bb1f2b8dbc120641383c922ba27b576c07cb6d00004938031c0e781e99c7f5a60b7745645c80d80c31b874c60e7a649e7a6793c8e2a797a5ddacb4f4b7f97e7dc7cf656d2f7bbd3477f35ae8bd76eacf3e7b29da29d15a3c1dd2106262c402090cdbff00c006c6338e30ae2c25f2c2168cfcc58e636c9cedc632e303827dcf35e9f2d9bf380c09278e80a9e4f191c374e71f4c0cd645cd8f1803a0e3938cfbe3b839e9c74f5a869adeeef74ddfcd59b6ff005d36ea6d1a9dacd7fc04be5b7e7f2f27bfd3669554e630159b68d858ed2b9200de3821707a727eb5c06a3a5cbe63ac8b1b232bb290acadb830560433150b8381ce78ce715eed79644820863907e5e9d8738f51c8f7e7a8ae3350d381704af4490e79ce03460820f4ce3f319e3ad66e29aebf7fa2bbfebbf53a6955b3bf4b59ab7f92bfcfefea769a759aacad920011c6496e3e5fde67d33f98ef5ad2eb7e1fd29962bdd56ce29c85d96cb22c9752e412a22b6883cd2338070b1a12d8c019af35d07c296f24109d4355d7b5990806637ba9ddf9328f99d125b581e1b4750595763425580f9c3135ea3a6e87a669f0afd8ac2c6c6390963b228c1048e5c80170c40c6e393c01c57e0f9bf8f594e179e9e5392e331b51371855c6d5a583a37bc9734614beb55a71d2128a97b29b4dc5aa6d5dff004ce4bf460cef19c9533ee22c065f49a84a7432ea15b1f5d27ecdca2ea56784a109dbda41ca2eb42125192f6916d2abff00098897e5d23c3fac5f92c504d710ae976aae031cb9bd31dd984719922b4973905031c8aa775abf8ba6884935e681e1b886e12c712c9aa5cec53f33437370d6502481011f358cea84e4ee1c56f4e2312a02cc47dd4c6234c1fe2246cddd7a649c0cf3587acfc3d3e2ed6f48b7740903d95eccbfbc654ca35ba33c831cf1271bc100e0303bb23e5303e2a71871567184cae8e3f03c3786c63adfed185c0d3c4ce953a542b5792954c6d49f349c23c9cd0f64d38c6718a9269fe910f017c3de17cbab63b1580cc38a3154151bd2cc330a986a55273ab429b70a397c28f2c149b9a854957525294272716b97cdb5ed7f5cd0b58b2d42dbc4daa6a4b30081679225b6689c23811dadbc71da97cabe24780908460b362a66f18f8c2499ee62f135d449249bbecada6e9a60b70446116390da79a5148977acaceedbc0120c1355be27783afbc2f1e8456ca49ecadb51d2f4bb6bc3728b13477320b57caa796ed2c600e562f2f07782c176bfa5ddfc1cd79a0b7874649afee2f91d6086231fcee9148ee04b314406348d9f0ee0fca40c9233f37ff110b8969d5a187a5c478fad5eb57c4e0a9c955f693c456a75e116e34a3cf15579654ad151bc5c9f2d9bbafa4a5e1c787b8cfacc5f0b6491a784542bd6a4a8469cb0d1f6519f2ce77a75674d37cd272938ca328736925cdc4db7c49f19931469abf85e755dcb23cfa4dd24aee08c2af95aa471827e6c9098076f1d6afcbf19b5bd318c177a3681a9caad18125bea975a796465392d6ed65a860efc281e79c8cb77c0f31bdf833f1a6da68ad9b41d2a3b1b2b8591ae56ea18efcc71b8e658dee41919d5c831a6f01c311818ae07c49f0d3e281bf6bad27c2badead001e74d2369b70e2d5d086f9cbc26331efdce8cd230e02a901467f43c9f89b8d618ba74b33cfab60b0b1a556a7b4c76511c4c26e328b846ad5a5858d54e709b9252a8b9545c7e351bfc4713786be1b2c1ceb649c251cdf1556ad0a73a396679572bab454e169d4a51c663258551a538a5251a779b95d7bae5cbf5ae97f1667b98ccb75e149a54d8cc1b47d4ecef0e50302845eae999dcc182e1b1804b10319d6b6f8a7a1ca7fd3745f1169d19654def676b7a0312d80c9a5dddf48a0819ddb0ae30339c57c97e0db1f17d8e97a91d4639fcd0932c36a18b3899436170a485e9b5b2c59cae71814fbdf1c5d5b5adae349d4347944fb150bc8d0dcdc2b465da486691e42a57223902aab1638dc471ea65fc7bc575e79852fed1e18acb0538fb296328e2b0b3c6536aa397d539274e2d47d9eaaa538cef35eeab4b978eb780de1f62a8e1ebd35c4b95cebd18ca586863b0989fabd46a2dc2b3a94311cd3836e2fd9625d3934f964f472fb153e23f831d8a35d6a50052dbe5bad0b5ab7b64dbc169279ac12255c658b970b819ce326af378d3c0d9553e2bd015dd54a23ea7691b6243953b1e50c09231cae720a9e735e4ba2ea0d79a6db4d78c2179628dde2963da033a86c7cfb49032570c776d1cf7156e6364e373ad9be0f1b91013c103ef67820923d3af19ae0a3e36e614e728e2b20c255e57cbfecf8cad4bde5a377a946ba6afaede57ea79b8afa31e5138afa8f16661464ddef8acbf0b894a375eeda96230aef67ac9bd6cdf2ad8f5b9352d04dbfda86afa59b76ce2e16f6dcc64aedc8dde66d24074e84e3701df1590facf87e62445ace99271d16f2d98f040e81db0724f18eb8e338af14bbd13c3974c249b44d2a5e6462c60859897c6e6259392f80589ce76f5279ae5ef3c27e1b931e458cd65130c95d3af2e2ca31860fb8a5adc42bbb3c93b4938c72057b387f1b32d9722c56498da57bfb4950af87aea2eff00654dd072f76cf571dede67ce62fe8cb9c43da3c0f1365b5f95a74a389c2e2b0ae51b2bb9ca97d6941ddbd94925ab3e87912d6f2377b59a1b84c952d0b891437520b213838208ce3008ec46794d42c7f7abc73b24e064e70538fae491c11c7a578c5bd93e8873a16b7aee98accb24812f65bc89dd471be2be5bb89b8c12c63dd85009c64551975cf155bdd5bbc9e35bb9a2f363590df58694d0ac65c07327d9ec2de52a5793860d81c11d4fb785f16b85b1528c254b32c2ce738412ad86a6d372695dca957a91825a73372d22eefab5f358cfa3f71c60af2a588c931b4e3094e4e8e3ab45c7962bdde5af85a3293b37f0c5dfd5abfb2f87afadeea34314a65da17cc4800f976a8386607e5206382dd3e6c0e457a069a97faa3c96fa369979a84914265952cad2e2f658a1419776581198220c9624e006e78ebe1526b5f0de0f1e6bb65f0aae11fc291687a33daadb35d379d71baea2ba9e56b97925f3fcc5f2a4776cbf979566501abebfd32fa7d2fc2de1dd0fc39a8ff65de43692ea3af5fe99712a5ecd7b7859a2b5b89176946851986d0eac61f2c300b82dfced80f0ff00199c67d5329c2549d4a70a183c42c44e92a368e330d4b1505562e728d2e484a7cef9aa372a528454a72513fae73cf10b2ee19e1f79de64e34a11af5e84a9d29fb794e787c43c372e1e36a52ad3a95147d9c53a4929f3d4a94e9d39cd7869bb377aac0b15d200a920b79644dd6ab748a046644f9449b5b71d8586581e4115f48f83bc7be07d02e5ee75ab4b0b8fb3b3c76b35c244c606758c4f2c4d202cbfbedccbb4ff000a85c616be43d7b509ed6f355331f3e4b2d41acae2eee2475135c5cc0b7368f220463ba38e1984b280ccecc8111942e3c93c75e2dd3869f69041a8bddea90b46b2dc5a4c60b3858cf9222b5318967db1797134b3f958944ae898618acd723a95b28ff547110a183965f9be2ead4cce9556b1b5671a13a12a10a5422eac69b9a95175e53f6134945690a8d7365989855cfa1c7187c6d6c661737c932cc361f28ab1a70c3d2a38aad87c553c63f6d5573cd51942afd5a349d5a537513949d48a7f58f88e5b6f166b5ab5c78b7c1fe29d57c203507b8d167f0c5943015783cffb1ea7717124f6d2795bc79e0b8104cc4969194186baef087c4ff12da58cf657b6ed12d843a849e18d42f96da1d559d74fb8f263b9b088dca4edc31f35890c18e0c864c47e09e0ef899696de02be8bc41a8dedcbc62216e3cdba99a28b7405a3568c3f948efb2352f246a1e5c0eb5e65af78edef2e6df51d3afe5b70858c45a65f353ef44a9246fba363e5955f99738392a3a57939664d4a1572ec3e330786a74b2fc4d3ab4b1b83a359e357b2a8e0eac253ae93c45674a0a72568b9a8b518a492f4738e7a2f31c4e0ebcd56ccb0f5685494d53a4aa46ac60d42ace9d372951a3295e11726d2a6f55b9ec9e27f8e3a7082479b509e0f1148b70d713c7179445eb00ee92347f6740d3b32bac4150293c84da14f67f0efe216b575e2ef0b69daa2b0d2f5ab0b8baf34dd19a495e38164092c2e248d2321c61b392032890b3843f17ea3ac69faaeab6d26b36b602eadae9a479a6b236971e6b6650d3fd95ed8ca8aac8f995594045dc768615ec52f8d6d34e3a15c25b4c24d322782ceeedaf6485192787c8631c5756f751346801f2487c82db7791855fdea9f13d154e8e1f178dad45c70d46151d6c055a55650a7530decdcff008d16ebe1e15273953704beb1c906e34b9a7f84438271983c4d3c460a2b112a59950c47b38622a518da6ea55c7d4b51af0a70f675ebbf674aa529fb68505ed9c6a554a97de1a74b37da2e25b06b65863b8b90c86de100db34a52305e148673b4b2618c849206e2d935cf6a3e1cd05649aeeebc2fe1790cb2abc934fa2c3752488642649435c3c8a26187612b062a0b648279f96744f8dd61a219340d2cea304cd626e25b9d7aec5f472192e8958edde131348f98d0a9796200a6597636dae9b5df8bf15fd9dac1a67892cb4fd46280699ac3dfd9c91593dadd97b89d7ed49f6a11bee9046922a9223c6e68ce71efcf3ee15c5a9d28c70589af0853e5855c24211a909d28413a556a7b3a3393a93bc926e774d4968d1c587e15f1030b5f0f5eae658fa196e22bd493c550cdea56e4ab1cc2755d39e16bd0ab888c3ea54bd938392a2acd52b3719be275d961bef8817da0e9122e9f6ad3412f941d62b6815ed609676401542a34921314512e3e7554c20afa3be07fc149be2978c7c456775691be8fe1bd235ad5feccd34d0a5e2698d0430ab5c2ba4c6393ed026c24b1b6e500c8532a7f3f7c47a909753d5b5982ff46bcbf8f50b64f2e3ba9e3696c6cad4c723dbcb72915b5c8fdc803eccf2f9bbf1123e637afb2fe08fc4ff00885378635dd2fe1aac8b36ada36af63e28fb05bcb71af0d01edad05c7f6588da258ee0dc2c056679235461b98b2ee56fc2f8a329fecfcf70b89c062b0588c362f9af42d87780c2d4a952b55e7aea3153f694a0a14e74ea49d2e551e48c25299fbde539bbc7e45982c46171784c5e5f0a14a9cea29d29e3172528baf87ad26a33a72973b9bf8e9b5795e328b7e83f097e08f86fe2578afe2e69ba9c5a85a7fc221aec3a6e8ba5f87b52d3a38046f064c925dea30de5c4cacd1ee23cc73e648fb64dbb55723c5bfb32c5a05dea4da8789353d06c6051f62b67d2db59bb99b68c8927b5bbb3b7555e40728b80c0043b4b56869f1f8afc1d7da1defc36f0bf8b7c2777241158f882e75cd32d65b4d7e432f9915deb134374ede7b48cd1c9764ab436fb12368e38f07d87e32f89f54d474cb1b4b3f11e83713ff6744f7e924b3c6d06a0ebfbf822658a7f3e289f849c88f78c9f2d4019f9aaf8cc44733a118e1b28c7e0b10a3796154a13a73a70a51a92a8f095d46946a54529c60ad1b49a5668e18e2abd2c34ff00e146bfb7a5cd6949c6ad3a8a72728c79aa439af05eecb99a778dece2ddbf3eaf7c0b7125edddad8f8c346b6b3b5841371af1b8d2e79a66dd98adede3b7bf32aa228265de002c0120e33c34be09f15eab7975a5e9375a1ea420843c9749a9db5bc1b8ef0111af5ad65672236704445369fbf9c8addf1559f8c975190c71d9ea51b9244f657b1aaa924fc98b91036e00f4c1041ce73c1e06ee6f15dbb959b44ba276b10d1149c61b3f75a32eb919e46491c75eff006d470395d48c672c1ba7295a4d51c4c946364afcb1ad0ab24bca526ef777b592f0a5c479ac1f2ba94aa24dfc54b9652bdacdb834974d95b477dee7c69e06f196b3e0fd67ced26fe3682f2558e75bd2e639acca09235982925444eb2343b155d4c853714f96bf4c3e1f78ff0052f19dbdf5e786ae34e8a5ba36b717eb25d79f35bbc36b0da3a2400a9559bc913c7bc46ac19986ec935f11fc4cf835078724935af04497baee89169d1cdac4d30863feccbb57753045e6f96f242f1bc5e4b88cbcb2ee446738c79c787bc51e24d1756d2f56f0ac1776b756f0cf3dd08166276dbdc488b25c468162f2e28c796fe62b2b46e10819e7ec387315428632a631cb131a755508e2a581a9ecb1b5a318ca9a8aab18c9ae4757f78a12a5564e2a30ab04e519789c6f94637159754c9d50cbe58ca327570b1ce28fd672d84a0a9d5f6b2a2e51a737350e5a752a43114232a92955c3ce518ce9fd83f11bc437f0e9de34b08ee96ef56b5d7ac11de108af34f26997fe5c82203e46dd2ac606594e0e491d3c512d75cbbf0e0b3bad2dece60d6ba807be616398e348a36b86ba9dc3999a28c9752ccdb43e23d8b81e90e35bd6343975fd7f4cfeccd475bbed36f2f2dd4308e7921b7bb44bc8e212ba289b6f983636d6dc4e390cd7b56f87136bd7be1bd566c4da65bc4f6d736415e4bab979d77c5f6240e2332c612432798b858b79dca01078b1bc4581c871999e170f8584e8e6129d49d5cd215678b8297b69ba3ccab7b69397b49284e75e351c9f3ca5cd26cbc3f04e2b8c72ee1ecc31b9962e862b24795d38e17876785860675a8fd530eb154e0b0cf0f46342a52e69fb0c32a54e8c250841469c52f133e2cbed1edad6d2e2e639bedc45b3cb6b289a08e3967b07f39251b564daf06d3e5641196461b013e8fa15c699adeb9a669b298d6525e741a3d86cbfb836e82496088db9f3834d02caa483bc824649600e3e9df0aad754d72f74dd645f6950688aed241248ad7a3ed0c3ece214748e278f62f9dbfcb70c850c6c0b8917bbf879f0a1ad3c4fa3f8afc1ff00107c1b61269b2dc43f60f881e27b5d1af6e5a489eddd9eca1b494470472a380b33195c603aab02163033c062715828613153a75b03270c42950a9172be3aa56a5529a853ad08d3852af1a928e22a5d4e35637928c1cbdecfb1d3e1cc2632af1052a4b038fad0a783af52706a9d4a780c3d1c44311173a75dd79d7a1552961a8382a6e9fbd093718faa78b24d22fe0d3b5db9b21e0bd3ac945afdaaf74a974b875196ea329135ec93f966e5de389c401b2cd8959598935c941a5de5c69f143a96b7a5dc69914b1c5a6cd6b6c5f528ade1669ada1824059a385d570c18797b5c86dc5b9e93e29f803e2478a7c396b15edc7c38d6521d7ad7529cf87fc6ba75d412d9d82346e92946b4b2501ae93878fcf51226571cd790f88bc2f732da41a5df68cfe1dd5fcb6b8b7d562d7346ba8a2b6b52d2dd2a369fa95d2cace556048dc47759996489084703dd9c2188cf28e1a39553e23588c3d3a3edaa54ab85a7469e1a152bb84561eae1f91454ab454a7171839373835ef47e7707c4dc298fcb962aae7986c3cf075eb6268e1a9e3315f5bad52b2a34eabf66a51c46279a14692961e5ed62e10f76376e2f1fc69ac5c693e1ad4e09fc3b38b88f5332daead35a5c25d2c5ca799f6958d2231b650c68669a2fe001f62e7e5e97e225d59eb02d2dae084b83009d2092691a5df2323f9cd7322aab2b8e1ff761002bb982be7eaef125f5ad97822f2e34dd5da53a9456f6f6f6fa8cb24f72c8cd04170b05bddc92ab4662324be6a295ce58374c7cc3e0ef07d86b3acebd6faa4afa65f0b7d3efb44d42710cab25ac97578b701e22ea678ee0088213223c4437ca431078b058ac9eb61b1f1ab964f0b877568d3a9514675e182baa14fda494a556ad48c6aaa8fd8ca768b553d9a6eccf6ebe538e78cc3d4c1e631a9251ab88c2612ab94615aaa9b94a9c79ea53825560e339546a2929284ec9b6bd6fc1de289f559279ede39e5b3b5984322cde43cc93000b324224964784a1043a06460bb90b2ab91f72fecfbe3687c3f3eadae25dcf777b7d617be1db3d134bb5696ee53a95ba05b82d18223496445850b18d5dd5c2b12b85f9afe15fc05d1758d4ae35cbdbdd45fc31a6ada457b6098b6bad67536da27974eba8ddd16d1638cb344d0ee84858a569566dcffa55e08f11fc2ef03dac7a6f8734997c316c90223c973a7477723ba6e215eead4bdc322b12510a0542c76055381f0b99feeb138ac460306f34a2e3528e1bd96165848d28ba0a8bab5a1ed6b4a759ddd5b53a2a9b727196a9dbec7059661abe1e8e131d9cd3cb6b555edb1b0ad3559c6752af3fb1c2d56d41d18494e9c5d5a8a708463caa6ad2793a8f843e3578bb4e25b50b9f0a698f16f115e5ec377ab30241453000b05a1d9c36f370547046e06be7bd77e137c70b4df245ae596a891ccdb63956549e485491f34a93322ccf8038844618f385cd7dd163e3ad335948d6db59d2ae669e458e2b7177e45dc85c80a12da711b96efb7193cf7c67cefe267c57f0cfc3d6934f7865d635b922f3a1b4b707187dea1e573b638e3f350a82ed2310091115e2be6f279671f5afa96172ac33ab37cea82c2b838c62d46529d49c94d457da9ca6d2d6dd8fa7c470c70750cb9e2b158d9cf0f4edcd8c78f94a529cd251825464a9b93b7bb4a14dddbbf2c9bbbf82756d17e30e8bbe6d43c3534d6f123bbcf6774b361a34cf96c8eb07cc54a9dc198648048c9ae5acfc4fe28bfb37bd834dba748a77b69e30c9e7413a2fdc9a1dfbd78e49dbb48c60906bd33e2e7c50f16f8c348b23a5bdde83a7cff688efa3b790191ee37a130a5ca2214411ec3889632c18862c3a7ccc2e7c45e19d36f753b69a506282494fda1a46fb6aaa97689d397918862d0ce795219492a594fead86e1ec5cb2c962f12f094b13195beab093f8612e59ae79c9c79eeaf1516d72eef5b1f91e6f472a78e786c896615e9c697b6956af18ce9c97b38d44a0a308d4846cdae7ad64e5eee8ad35ecfe17f19e9772b6d2c7736d3ec9a09944a03dab4b039644ba87215c46e1802c010acc3239279df11f861bc45a95fc7e1c8e08f56d4a0d4f50d5a478235d3625926678ade19238659add255f3ae242e5e29596319255b1e033dde8b673c7359453e8d19492593cbb8908512e361308468238c3e6386560ccd80a0b1041ebbc01f13afb4bf105c32daeab3e9d75a34315bdcb4370621756d3c06292676842dc42a5dda60a8a92adc22864dcaa3c4586c665bcf8ac3c66a318d3abecebc55369a9c271bda528f345d9b509ce0e5b5d34cfab7c4393f1350c3d2c44a8d2ab5beb14a954a1293751c29725774235a14aaca93f68e0e72a6945bbdf44cfd05fd986c13c7df127c27ad3784e7d5fc3be12d3adecae6d6f208268df51b28a48f725add9105e15337ca665548d943b6c9556bea6f899e02bf97e2eea6fe0cf04da69fa6789eeedee3c15e15b1b3816f60bab1d2a2fed190e97a5abc16f019a3bb9a6781668d6298bbc182e13e2ff0081d7fe2cd4757d3fc47a743e28b00d716c97face91288161d1c5fac57176b656f24261b5b681519ed64505d91448f0a9f35ff51e3f027c475bab4f1c0f1d35c58f84bc3de20f12787fc6f14515aea13dbcba1aa5fe9975a4c915c44b23f9f98ee59e585edfce5495646555fcff008aeb6718bc74f118aad94470988bd54eb558fd62188aca34e8d1aaf0952b4294f10e11846862214aabc34e72549cec977e4d89e1fe1dc0d2cb7051cce39a52c1350861292c4d25858d5fac4ebd4a75a9d172741cde2693a556acde21534a4a94ecfe43f117ecd3a578facb52f15ff6b5ee8be38b25920f10dbc8c9334528df1c6b2c318817ecd22c2af64ed1c4c2d804d884155fce0f883f02755b2f17c5a669faf69f7be252f11b182ea0787cf173712dbc11a948ef1dde4918aa46c8b18625cb86d86bf6efe1b6bba05e7c22bbf14df6ac359f16ebdf641afdccde5c5247059d92c7a5c11c31808214b7dc239017f35cb1672e1957f24350bcb8f1afc528f5dd0ccf2dfc7e3db7b56b1b8bd92378ad74a9da686cedfcc592263202b712472cd6d0ab162841dc95f5b9063b1385c2e3b1d4614235b034b10f0d5e546352942a61e94e6d4e7523193a0e509c7da5692b39466e4a4f98f97cd71387cd31182c0e659a62951cdf1305253857af5f1952b55a718c234a9aace9e2aab9538a4a2e9c3de52b423cb2f9a3c61f02fe2bf86b50bcf0feab6627bf8c45ab0b2d0fed97eb750f916fe6c36f2c21a34861fb7912b4a446b2a04121f98a75baefec5ff127c11e05d3be26eb7a5b491d95a1d567d2a1bd8f51bc82098b3a3dde2ee7124be515ba904084037255a45781c1fd18f102f8ccdcea8d368f2699258c16ff00695d4a31666fbcaf337adadc49188ae3ca1e6c857ce5f3171e5f99b97357c67f1db4ebbd196cda78d6336b6de5d82da97b5961de209619cb158e24f2b3246891ca8eaaf1bf964007969f88dc518da383a7cd8652acdbcc2384a7522f1309d254278571a75650a34270e66e738cea529f3494e3ab7ed63bc35cb3058cc3ff006742b55a72ab2a94678ca58671c0d3a3528d48d655ab52839d45ade34e51756308c55396c7e595e78e74dd5ad92c6e3409b4eba56b78279a78ae62f2de2f2a67536f24482366445f94c8db43e00af7efd9abf66083e22f89ae7c4fe3b82ead3c1e844ba34572ef6d7578f24914d0c50c670c74d45133b6042acd3208d8956c6d69df0175f82d6f7e2e788fc19a8ea7e0cd72fefb5fd06f6d02dee930e9d1cae1752d56deda591ec7f769b426a31c0a2142c4b2329af50f0ffc66b3b368d20bf48e340ab1a8c46aaaa0ed5007eed5401c0ce0638e2be8b30a5898e0d2c9e18ca35ab61e9fd6aacfe0a752518b9d3a314a527eceea9a95469c650728c5369af478770784a98a75738a981ab468e2aa3c261e9fbd2ad4a33e5856c4ca4dc611aca3ed953a4df329da725cae2fee28fe0568163650d978675082cf4fb5844569652db92918c701a659097dc4b3191d6490b12cecc4e6b85d6fe0d788e152d04169a829272d6b3a6f50013c2cc2163d3eeaab138039e6b8ed13e3ca15506f1250bb43159959738c0c956039c91d4e31f857770fc75b5f2998c819c630ab9624f031c36719cf23ebd722be229e238a30528d2e48e22316a318d5a2b99ad1257a5ece726f7beae4dddb7a9f718ae1ee11cc14eaa5570952a5e529d0c44aca4ecdfb95556828adb9546314b456b2b79d699e11bad0f5db0bdd4ec6eec62b69da7134f149047be10ce83cd7555019c2e4ee0b83d3a578cf8d8e9fe29f1d6b1742feca5529118365cc17664b6b74f20c909b79194812233326edd1ac88cc00604fa9f8f7e245e789a09239a76b5b20862daad80778382ec0f048c9d99ebc9ce063e2c9df4df0a6a573a945a9cfa8dc18a486d239c922d44aff00332a872ad260940db03ed66192ad81f5b9763aae0eacb1d8e953c3e3e785fab4307422f115611751556dde4a34a736a3ccaa2e4515f173368f95c5e4382a587865f49d5c5603ebb1c6d6ad5651c3f338d2f65184b92f29d38a73947d9f24b99abd959aec7c41aad8e9315dd8b208b4fb765bbf3ee1a378cc88af89114e7cb74462ad85071825b3803e72f17f8ba0d5edaeac7470d7f712c772b0adbe242ce8ad1baed190029ca1dc4007009c7053c4b7dadf8935b3a5dda5f69d6cda5dd6a8f25c4125b0bbb78d4055b332a8f3e4393908080ae1b92b83e05e0482d478a6ec6a1ac5fe9f617377ac4368f001e698619cc9e7ec90a8226316d942f94c1c86e7907eda9e0f13532ba19b63b1188c2e16b57bd6a34684abe21617de8bad56a269a73941454210518d39c6ee72b45fc563b3fa5471f5725ca3094255234654a856f6d4a841621a825082972a92a51a9f1394aa3ab193b257a8be8bf0c7c2fd27c53a969fa1ea1a889ae2f60bf8ae6f22777f29136bdadd1802da8b892363b499a642d290dbf69cd7a068d2f8a7e1bf8bad3e1d69cc3c67a4e8b650c9697171a76996adf6677006f6f359936ba2c7227db18928a51806551cf78034df0f5b3c739d5a63732a60bde3346d12105bcb122b1890e471b5f2491d718afa8bc2be07b2bbba5d62d6ea19e5ba84dbb4d3482efcc80c8aed1eff0030b91b949c6e3b48380186467c5b85cb6d5696370198d3c2d3a54a9e1ea4e82a893841c1ba74d55a51a0a34e2e14a34eb4631a69be4b5a2fe738171b89c660f0b3c2f10e498dccd4abbab4feb10a35dd3ad2a4e9d1af5dd2954c55a5c8e6ead3a928c97246a36e523d17c0dfb4f787fc17abbc3aee9e9657f736918bcd2ac666b0b1164423c96f22a59df5adc41215449236b8937aab448a048c0fad788bf6d9f116b3f0a3c556fe0dd2520f045dda5fe9106a57537d9da0fb4c0cd2456f6132daa4716e631c57715b5987914992362bcfc8fa5fc41b8f87179e29b69ac349bdbc8fc43aa4f6f73a8d92ddc82dd828b48a26994958e289555157b0386208c733e21f897f0cb51f07eb56c7c37a55b5c6a8867bf681cc6f7379279b34d7300b54825b591a51233aa4c54abf94415254fe118cc97038dcc6a56a996e3b19073c14635b158a862a15bead0a7469aab4294f0b3b468d3a30a0a75abd38fb2bd6a5524d4e3fb1d3c2e05d29e2733fa8471af015f0d09e12d83ab847ceaa526aa62b0f8ea128c6b73bab1a387c3d794651853c4d38fbafd2344f177c44baf827e198fc3dadc964da9dadb7d9b4ed234882e65903c69e65cea7a8dc0596168e312c56ed0ee8515130ca4ee3cb7c3df09ea9a4f8aac425dc7ac7889b523acde585aefd4afa16892485ae2e2e033624579ca1894cacbb976839661f30780fc69a9d958ae95a65f6a8ba5594323cb6b05c5cb5bc36a8db5e59911ca2c60b8de5c6016e49e95f4ffecf3ac4b0f8eaefc4b74d1c3a67d866d320b89a78e3696ea4b9b6958ac6d209bcb5485879be598b712a240783d99f4333a784cd1504d6063ed6bd0c0e1a8cd3ab79c5538d669c9ca5cd79bd253bb928d4505ca3e1ec165385a3972af888d7cca538c279862ea518ca9395a73586d211a54e1171a6941414a2b9ea465526d9f5a78fb42f8957d3c7a74fa5debbdd45e4beb37a664d2ed818d137dcdf4db122d82458d519848cc0c7123b0da7e40f147826ebc170dcdeebd7f61aecf6768915a69da6f9d750dcbc528911e569e18d95dd6529e508e5e7707c2819fd308bc6be169f54d322f1738d534a961966fb3c9747ecf79342b0a409338cb4b0ed9377968c37aa2e49524d723f117c21fb38f89f6eb3258ea3a36ab6d0bc7e4e87ab35a69f22154092cf6f29b9596678e2f22597625d4919726e048e5ebe3387734c6d3c4d355f0588a584f6b5a12a742846a568b8d69271c44aa578545256e49aa518abeada6f4f638a333c2e026e8ae6c4e2a385854a559d68c2847dbd35cb2a715071a914d29a7272564a367cad3f93344d67c61a6fc31d4fc1967e2c5b8d3bc51a65fa0b4411da41a5da6b963e5b582c13b08e28ed1a670c96f321672efb773331f84759f857f143431e6dbdb41aadbf98c8b3595c88fee9dca3fd296dc485d082a21925cf1ea33d97c438cffc251ae5a7873c5572be1eb5d42e6df4eb486e258278d22924f304a59e4494b4bf2160ca258b2c4231db5ec7f0d7e27786b4ad12cb42f1a58f886ff58b2864b8bef11e956de7dac7692cd88669cda2972f1b154f2960790ed0159828c7f6ee532a34b0185fabe1aa7b2ab4284a342ad04aaf27b284a2a7cb29ddc22929369bba6eeedaff003362b12ead7954af3961e719cdcabc2bc63173a93f79a92e55fbc949f2ed6bb4d4767e15f0762bbd43e23f86fc37f1093c49a0787ef25bb6d46e2de0786e7c9b6b49a755b79ae219233ba758e3770242aaec42e4035f4e7c44b4f0c7c2eb2b8bad1fc69278a629a48dec96e60b74bcb4b6b8128582768ae48792191638cb885439900655c0dde6f17c61f0e2ea77d06b9a5cb69602fa57d27539ad6454b8b362df6796e2e2d961b84b9645dd2c3361b2dca96e2b8bf8c7e21f015ff838eb7a56b57175a91bdd2a28ec52fadda09217ba4f3d8db1b6174a11036d0f3ee56c33962a41e3cf720fed4861a582a4b0951e2b0af13570dec69cbea5cf7c4f2b694a151c1a5cf18aa9d99efe45c4d572bfacceb62e58ba71c1e27eaf4b1129ced89e48c70d74e49ca119c758c9b8b4de8ac56137c59f1ecf1cfe10d361bdb6b5b845beb79b50b2d3da486e14f93b4ddb46a0200642dbc3b379785292315a5e3a8bc7ff00087c3ede25d6bc2fa525e5e5cc56d6dae6a7a9e9fac43a749336e436ba469f35d08e740a41b9b877f9ca054426a7f867f12e1bbd6bc53aae96bf65b0963d12ded609514185ac6ca4b49c2ae48dad2c4cd9e4b03cb104134be396a7aa7c50f0caf8463bad363335e4172b3dcc491ac46d5b728668e22c51f715909662172514b61d7f2fc5d7a996f17ce8c72ec9a19661b15428f3cb0f5d54a786b42552ad44aa3857aef9db956a94e536d5da6ac97da53a0f34e0f78b59ae6f5334c550c4d7852588a12a55b12e72851a7152a3ed28d093846d4a155422a575cba9f2e5b41f103e22c96be22b8f1f5d3ea5a90ba8d95d8797a7d9aadc24b6d6d10541e5dc2e72555762a465246f971a1e0ad074cf116afa36805353b6d52de1bbfdce982de69a562cabf6895ee1c8b5b595c99257756625952347dc245f7df057c13d27c2f7b6b77ac788ed2f21d2ec84bf60d0af249e0babc994058249cdbc309b58e1dc64d9f30670a172a58f9fcc3c2be0ef1dc9aadad90b3be9ae1a1b5bb82768162b0952179610b1cc88eacea62799a212329f2cb6d048fd038978bf24c6e0bfb3728a356b663468d685754a152783c4254a92a708d4bd276e753a95b920fd9d356a75652d17c565fc238ea6b0198e39acbd7d669fb49d5ad17888d35c9cd5f926a718ce72f769c24eee735cf1e489fa1917c29f8797b2c817c3b69605d55cb69665d38ef2bb01c59bc28428452a194a86dcfb72ed9922f836f64e937873c55a858bae485be896e00eeab14b6af63222939de5fcd639e06383bba65e8f388ce4f9718da18f1969318e7d87a773918aefacaec36de4673ea3ff00afd3a67dbdb8fd567430f5e2e9d5a34ea45ad538a6a4b45af5d56e9fcf73f85e38cc661a6aa51c4d584a2e2d494dde2d59a716eed59db556774bcade0bad7c31f19c916dbbd1b4ff0010c64e5e4b29ad65ba9110722e25bf4b3bb3b938410cf2385c2ab2e16bcb13c0fa5787daf2296c2efc38ba8cf147731ea7a6489a7dcc71cbe649b60d462dd78f8dff003457c11382bb773337ded6976400377a0e7a63afae3af73d323a835d0432c332812c71ca07203a2c817dc654919cfd7939078af0ebf096495dc9c7094a84aa4e339ba508c14a719a9c65350e4f68e335cebda39ae6b3e963ea307e23715e0d4212ccf1388a34928d3a75eb4ebc61051505084711ede34e2a09452a7185925669a4cf82f46f0ef8662bf683c3b15bea7fda0192eb4ab1d1a08fed0ca1c4604304b7d7122ef90b3e258951060903694fa1741f80dab6af05bea9a9ea8de189e33e65ae996f676974540c2ecbd5127911c52a8f9e2b6649f3b59e7560c0fd136a6d636578e082371fc6b1229e7b1214719ebc8f4e6b6a3b907193f873d49c6411c9fcb181cd7460f85b2cc3d28d2ab4d62e31a73a50f6d15a53a9275271f76d6e6949ddc795bb479aed5c8ce7c4be2acd6a61aa7d7aa60e384a91a94218671853a7520e2e32518c1296aaebdafb4e5729461c916e27cd1abfc24f89b6aabfd97a8f8775df215da0926b8bed1a44528a1218ed648355b7672416ded731a72a368c66bc17c63a4fc53d1639c6ade10f12c70387c5d58dbbeb31bc48f2bbc9bf429af92da345dc73750c27cb653b72081fa38b3f5e73f52073cf700fae3d79e327ac9e7e47246391d55bd7380411dcf1ef823b57256e05e1baaf996029c657baba55527e4aaa9c95b5b5a4ad76f73d1c1f8c5c61414638baf86cc69a8a8fefa93a356cafb54c34a92bb6d37cd4e49d969b9f845a9785a0d4756b992d3c453e9f2c93cb24f0c8ab76d1b34844acff00bcb6923f2ddf6ec64908c004e460fd27f07ae34ef04457f6d65a9e997b75a8c50c77b7dae40e5a40b8312d933496c9122bf984c223933e665a57c2e3f49b5bf0af84fc4908b6d7bc3ba1eb1006dc21d434db3b95dfc9dca2589fe6048e41073ce7d3c435efd98fe18ea4cf2e951eb1e189a4600b68da948f022295c450d86a697f616e9850a3c8b68f628210a82456b88c8318a387583cc6ad08619fb94e972538ce2a2a2a1514a151ca314972c554824fad958fa9cbfc5cc9eb53ad4337c8e718d7504ea42a3c5aa4e3352e7a7efe167093b5a578d54d5928dd26be4bd7bc006eae2eefecaeed2e96eee65ba96146458d5ee2432b2a65d915373e1493f2861938049e5e2f00785e18b505d5ec34b86f61b59a7863102de4b24b1ccb1013adb80b082ec64264906140c02ec31f406b7fb2f78974ef366f0878e61bb5036c565ae5acb67732821db13eaba648d0aec6d8142e91ca8c6777cd5e31e21f86df1c346919ae3c3d77a9456d1ba4b7fa05fd85dc32dbc8ede66d025b2d6a71b424af1fd93cc67c05476c67e6b38c978a6ad1f6786c6c28d9a939c70f1955a924eee1ed62ebd3a709abc5c9e16728bb49dd5e2ff40c938fb80f1117294e955ad6e5a3431f89ab83a14ef1872a950e5c3d4ad28c9b8be4c74134e568b71e6317c1ff000b7c2e343b4bb5b9b8b796f51ee276b010c2b2bc92cb205943acf9540e61187ca28401b8c5737e28f877a5da5edb2db6bfa8c122ed90f991c1701919991d42a9b70a768215b7300410435322f1eeb1e16f2b4ad5f47b8d3996016d05a6af697da55e6485f2e548efa257943175c385c33920364d79ef897c61ab6b17b15d451c70ac50adbac5e76f2ec1e46f30c8142203e611cb8c05049239afc7aa70a71951c754ab8b52c45194f1151ce9d5a35669d49f3439e3251ab3d2fa2a4d4569a2b23f7ec2716f04e232dc352c1d6a7071a54231828d78d35c908a972548395251524ecdd5bcb7776f5ec752d22e345d3f56d4adf5d4bbd36d6c649517e6178ac90348f1dcabac51e0953b648a47c1c0655ce6be78f19681a76b777a5ebfa6df5ccf1c50bcbab9b9963fb34524216488daa26e655704f0ec492ac4cbd457a825dea37d617da75e320b7be84c320495252d1b23abc67cb6700b09428c9c9c31196183ee5f0b3e105968f6906a9e20b18cc4f1b4ba6e8b7281d501017ed77f14a1bcc959194c304809887ef250652047f63c21c379957ad3a95d4b0f4954e5aea7415396228fb3941466d46138c635249fb382509ca29b527176fcf7c49e37c9326c1537092c5579d1e6c153a58973943111ad093e483738eb4e3cb3ab3bca8c2564db9a8cbdc34bd414ca70c47eee3e983fc4e7ae339ec40cf27f1af41d3efc0c7cd918e0e70411d339e0f19c73d41f703e79d33539c4eae8d1b44c8aa4336086049270060021ba9c608e31dfd1b4ed526655c79440233891b83d8125383cfb9ebe95fb84649ababdd3d1f9ab6eb6ff0083e47f1355a5f92dfd367dd7a6daf4dfdc2d2f7763e6c631c64608e074e3d79fc3af41d0db5ee31f37d3278c8ee31f81cfe3c03cf9058ea72e38119c919fde31c0ee7ee907d481f4ed5d55aea729c7cb192303fd6313ff00a01e73dbbe73e95aa9a7bab3fcfd3faf99c53a6d3b25f2bf6b6bbdfd1ff91ea505f71cb73d7d33d074c7af7e40c9c74cd6b457a3a64631d339e31d0e3a73c7b9c763c79a417f2633841ede637038e794038183df9cf5ad48b509703e58fa1c8f31bafa1f93f3c9e307005689b5b3febfa4612a7ae9a3eaba7cac7a325e80396c75cf1c71d7031ffd7e38ee2ac0beef9ce727a8e3a1079c0c74e9d32735e7a9a95c0e4ac5c7fd356e39ff00ae7cfcb8c1cd4eba8dc11f7631c75f3189cf7ff96607b8f6ed8155cf2ecbee7a7e266e95dea97addebf77ea7766f703ae3009e083c039f4273dbd7b67bd567bd18fbc38efd3a648c82403df9cf51ebc571c751b800fcb11ffb6a4e4e0673fbbc0e39ed8e0540da8cc4e76c78f6918f6e8c4c7c1ee4f7fcf273cbb2fb9ff982a4d6d6d15ef7dfa5bfe06dd4eae5beea33d3a0c8f6e3191c7d338e2b22e2f860fcd9e79e7f2e99f6f4e707ebcf4ba84a41f953041fe362481927a260fafaf3cd62c9ab3b140b183bcb759785db9fbc429396ea303278a9727d5bfe9af96f6348d377befe5e76ebf77e5e8686ad069baa432dbea363657d04c8639a2bbb686e23910f5474951d594f5c11c76e95e15af7c10f851a93bbb7856d6c0b725346b9bcd1e22400379874cb8b68b7fca01709b9b1862457a75d6a728046d8c76cf9ad9ea39e6300fbfbe7ea796bed4e5c7213bffcb42724e7a9d83231c609ea2b0a8a9cd5a5084ed67efc5492db5d57a2fccf430988c66165cd85c56230d2eae856a949bdb774e49ef6beecf30d27e107803c2b7497b65617773756ecaf0cba96a57b7a91b44aaa845b4b31b62e9b43891a132193f78ccce3237753d451641961f724e380060a63fba00231d38cfaf346a1a9b856ceceac7890e33e99d9ce474079e3bf5af3ad535491a466665118460006666dc482492c147618f5fcab251a74e3cb4e3182ebcb14b57e8ada25a5d5f64f4b1db56be2f1b35571789af89a8972a9d7ab3ab28abeb18b9b938c6eeed2b77b76ffd9
+    nextGroup: 1
+    type: 0
+    objective: 0
+    tag:
+    mesh:
+    icon:
+    colors: []

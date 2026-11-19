@@ -1,0 +1,21 @@
+namespace UnityEngine.UIElements;
+
+public abstract class PointerCaptureEventBase<T> : EventBase<T>, IPointerCaptureEventInternal where T : PointerCaptureEventBase<T>, new()
+{
+	private IEventHandler relatedTarget { set; }
+
+	public int pointerId { get; private set; }
+
+	protected override void Init()
+	{
+	}
+
+	private void LocalInit()
+	{
+	}
+
+	public static T GetPooled(IEventHandler target, IEventHandler relatedTarget, int pointerId)
+	{
+		return null;
+	}
+}

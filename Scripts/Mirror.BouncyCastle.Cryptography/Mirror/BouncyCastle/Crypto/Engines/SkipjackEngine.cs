@@ -1,0 +1,54 @@
+namespace Mirror.BouncyCastle.Crypto.Engines;
+
+public sealed class SkipjackEngine : IBlockCipher
+{
+	private const int BLOCK_SIZE = 8;
+
+	private static readonly short[] ftable;
+
+	private int[] key0;
+
+	private int[] key1;
+
+	private int[] key2;
+
+	private int[] key3;
+
+	private bool encrypting;
+
+	public string AlgorithmName => null;
+
+	public void Init(bool forEncryption, ICipherParameters parameters)
+	{
+	}
+
+	public int GetBlockSize()
+	{
+		return 0;
+	}
+
+	public int ProcessBlock(byte[] input, int inOff, byte[] output, int outOff)
+	{
+		return 0;
+	}
+
+	private int G(int k, int w)
+	{
+		return 0;
+	}
+
+	private int EncryptBlock(byte[] input, int inOff, byte[] outBytes, int outOff)
+	{
+		return 0;
+	}
+
+	private int DecryptBlock(byte[] input, int inOff, byte[] outBytes, int outOff)
+	{
+		return 0;
+	}
+
+	private int H(int k, int w)
+	{
+		return 0;
+	}
+}
